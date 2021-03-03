@@ -6,7 +6,7 @@ const contactCard = () => {
                 
                 <div className="lg:w-3/5 w-full">
                     <h2 className="text-black dark:text-white text-4xl  m-0 font-bold">Suggest</h2>
-                    <h3 className="text-gray-400 text-2xl mt-2 mb-8 font-light">We love hearing about new resources and apps, let us know your favourites.</h3>
+                    <h3 className="text-gray-400 text-xl mt-2 mb-8 font-normal">We love hearing about new resources and apps, let us know your favourites.</h3>
                 </div>
 
                 <div className="lg:w-3/5 w-full">
