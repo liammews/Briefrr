@@ -3,7 +3,7 @@ import React from "react"
 
 const Hero = () => {
     return(
-        <div className="flex flex-col items-center w-full rounded-md title-background bg-white-900 dark:bg-gray-900 shadow-md px-4 py-12 lg:py-40">
+        <div className="flex flex-col items-center w-full rounded-md title-background shadow-md px-4 py-12 lg:py-40">
             <div className="w-full lg:mb-4 lg:max-w-3xl z-40">
                 <h1 className="text-4xl lg:text-5xl text-black dark:text-white font-semibold mb-4 text-center">The perfect practice ground <br className="hidden lg:inline"  />for designers</h1>
                 <h3 className="text-xl text-black dark:text-white font-normal mb-4 text-center">Briefrr gives you free <b>realistic</b> practice briefs + over <b>100</b> resources.</h3>
