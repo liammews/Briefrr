@@ -18,12 +18,12 @@
   background-image: url(https://i.imgur.com/NuBMLzN.jpg);
   background-position: center;
   z-index: 1;
-  width: 300%;
-  height: 300%;
-  top: 0px;
-  left: 0px;
+  width: 50%;
+  height: 100%;
+  top: 100px;
+  left: 300px;
   animation-name: orb-move;
-  animation-duration: 300s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   border-radius: 24px;
