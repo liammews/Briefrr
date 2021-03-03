@@ -2,11 +2,11 @@ import React from "react";
 
 const Signup = () => {
   return (
-            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md bg-blue-100 bg-opacity-50 dark:bg-gray-900 p-10">
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md bg-blue-100 bg-opacity-50 dark:bg-gray-900 p-6 lg:px-10 lg:py-10">
                 
                 <div className="w-full mb-8 lg:mb-0">
                     <h2 className="text-blue-600 dark:text-white text-3xl  m-0 font-bold">Join the community!</h2>
-                    <h3 className="text-blue-400 dark:text-gray-300 text-base mt-2 font-light">Sign up to our email list and keep up to date with all things Briefrr</h3>
+                    <h3 className="text-blue-400 dark:text-gray-300 text-base mt-2 font-normal">Sign up to our email list and keep up to date with all things Briefrr</h3>
                 </div>
 
                 <div className="w-full">

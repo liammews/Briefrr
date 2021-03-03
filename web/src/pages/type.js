@@ -23,7 +23,7 @@ const ResourcePage = () => {
 
 export const query = graphql`
 {
-    allSanityApps(filter: {catagory: {eq: "fonts"}}, sort: {fields: name}) {
+    allSanityApps(filter: {catagory: {eq: "type"}}, sort: {fields: name}) {
         edges {
           node {
             catagory

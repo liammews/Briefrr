@@ -1,6 +1,6 @@
 import React from "react";
 import AppsComponent from "../apps/apps"
-import { graphql, useStaticQuery } from "gatsby"
+import { useStaticQuery } from "gatsby"
 
 const FeaturedResources = () => {
     const data = useStaticQuery(query);

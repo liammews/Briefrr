@@ -25,8 +25,68 @@ const data = [
   },
   {
     id: 5,
-    text: "Fonts",
-    url: "/fonts",
+    text: "Type",
+    url: "/type",
+  },
+  {
+    id: 6,
+    text: "Software",
+    url: "/software",
+  },
+  {
+    id: 7,
+    text: "Inspiration",
+    url: "/inspiration",
+  },
+  {
+    id: 8,
+    text: "Colour",
+    url: "/colour",
+  },
+  {
+    id: 9,
+    text: "Podcasts",
+    url: "/podcasts",
+  },
+  {
+    id: 10,
+    text: "Design Tools",
+    url: "/design-tools",
+  },
+  {
+    id: 11,
+    text: "Development Tools",
+    url: "/dev-tools",
+  },
+  {
+    id: 12,
+    text: "Mockups",
+    url: "/mockups",
+  },
+  {
+    id: 13,
+    text: "Illustrations",
+    url: "/illustrations",
+  },
+  {
+    id: 14,
+    text: "Accessibility",
+    url: "/accessibility",
+  },
+  {
+    id: 15,
+    text: "Cool People",
+    url: "/cool-people",
+  },
+  {
+    id: 16,
+    text: "Show Off",
+    url: "/show-off",
+  },
+  {
+    id: 17,
+    text: "Inspiration",
+    url: "/inspiration",
   },
 ]
 
