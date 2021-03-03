@@ -8,7 +8,7 @@ const appCard = ({ article }) => {
         <div className="lg:h-42 mb-2 w-full flex flex-col justify-between bg-white dark:bg-gray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
             <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 mb-6">
-            <div className="h-16 w-16 flex-shrink-0 shadow-md rounded-lg bg-white">
+            <div className="h-16 w-16 flex-shrink-0 shadow-md rounded-xl bg-white">
             <img className="rounded-lg" src={`${article.node.icon.asset.fluid.src}`} alt={`${article.node.name} logo`}  />
             </div>
 
