@@ -4,10 +4,10 @@ import React from "react";
 const appCard = ({ article }) => {
   return (
 
-    <div className="flex w-full">
+    <div className="flex w-full px-8 lg:px-0">
         <div className="lg:h-42 mb-2 w-full flex flex-col justify-between bg-white dark:bg-gray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
-            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 mb-6">
+            <div className="flex flex-col flex-wrap space-y-4 mb-6">
             <div className="h-16 w-16 flex-shrink-0 shadow-md rounded-xl bg-white">
             <img className="rounded-lg" src={`${article.node.icon.asset.fluid.src}`} alt={`${article.node.name} logo`}  />
             </div>
@@ -29,7 +29,7 @@ const appCard = ({ article }) => {
             <Link to={article.node.link} className="no-underline">
             <div className="flex flex-row px-3 py-1 rounded-full border border-gray-400 hover:bg-blue-200 hover:border-blue-200 dark:hover:bg-blue-600 dark:hover:border-blue-800 items-center transition duration-500 ease-in-out transform hover:scale-105">
                 <div><p className="m-0 stroke-current text-blue-600 dark:text-white text-sm">Use</p></div>
-                <div><p className="m-0 stroke-current text-blue-600 dark:text-white text-sm">→</p></div>
+                <div><p className="m-0 ml-1 stroke-current text-blue-600 dark:text-white text-sm">→</p></div>
             </div>
             </Link>
 
