@@ -14,7 +14,7 @@ const ResourcePage = () => {
     <Layout>
       <Hero />
       <AppsComponent articles={data.allSanityApps.edges} />
-      <div className="w-full mt-8">
+      <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>
     </Layout>

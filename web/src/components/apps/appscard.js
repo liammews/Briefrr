@@ -4,7 +4,7 @@ import React from "react";
 const appCard = ({ article }) => {
   return (
 
-    <div className="flex w-full px-8 lg:px-0">
+    <div className="flex w-full">
         <div className="lg:h-42 mb-2 w-full flex flex-col justify-between bg-white dark:bg-gray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
             <div className="flex flex-col flex-wrap space-y-4 mb-6">

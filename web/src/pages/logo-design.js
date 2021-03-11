@@ -29,8 +29,7 @@ const IndexPage = () => {
     <Layout>
       <Hero />
       <BriefComponent articles={data.allSanityBriefs.edges} />
-
-      <div className="w-full">
+      <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>
 

@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../constants/layout"
 import Hero from "../components/resources/learnhero"
 import AppsComponent from "../components/apps/apps";
+import SignUp from "../components/forms/signup";
 
 
 // markup
@@ -13,6 +14,9 @@ const ResourcePage = () => {
     <Layout>
       <Hero />
       <AppsComponent articles={data.allSanityApps.edges} />
+      <div className="w-full mt-8 mb-8">
+        <SignUp  />
+      </div>
     </Layout>
   )
 }

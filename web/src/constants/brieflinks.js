@@ -5,21 +5,26 @@ import { FaInbox } from "react-icons/fa"
 const data = [
   {
     id: 1,
+    text: "All Briefs",
+    url: "/inbox",
+  },
+  {
+    id: 2,
     text: "Graphic Design",
     url: "/graphic-design",
   },
   {
-    id: 2,
+    id: 3,
     text: "UI Design",
     url: "/ui-design",
   },
   {
-    id: 3,
+    id: 4,
     text: "Web Development",
     url: "/web-development",
   },
   {
-    id: 4,
+    id: 5,
     text: "Logo Design",
     url: "/logo-design",
   },

@@ -10,7 +10,7 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-row z-40">
-            <Link>
+            <Link to="/inbox">
             <button className="mb-4 lg:mt-0 mt-4 px-4 py-2 bg-blue-500 text-white  bg-opacity-90 rounded-md shadow-md transition duration-500 ease-in-out transform hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 Check your inbox!
             </button>
