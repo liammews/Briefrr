@@ -16,6 +16,11 @@ export default {
       type: 'string'
     },
     {
+      name: 'price',
+      title: 'Price',
+      type: 'string'
+    },
+    {
       name: 'catagory',
       title: 'Catagory',
       type: 'string'

@@ -120,6 +120,23 @@
   .learntext {
     @apply text-pink-700;
   }
-
+  .software {
+    @apply bg-purple-200;
+  }
+  .softwaretext {
+    @apply text-purple-700;
+  }
+  .paid {
+    @apply bg-yellow-200
+  }
+  .paidtext {
+    @apply text-yellow-700
+  }
+  .free {
+    @apply bg-green-200
+  }
+  .freetext {
+    @apply text-green-700
+  }
 
 }

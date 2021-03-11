@@ -4,6 +4,7 @@ import Layout from "../constants/layout"
 import Hero from "../components/resources/iconshero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
+import ViewAll from "../components/resources/viewall";
 
 
 // markup
@@ -14,6 +15,7 @@ const ResourcePage = () => {
     <Layout>
       <Hero />
       <AppsComponent articles={data.allSanityApps.edges} />
+      <ViewAll />
       <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>
@@ -26,6 +28,7 @@ export const query = graphql`
     allSanityApps(filter: {catagory: {eq: "icons"}}, sort: {fields: name}) {
         edges {
           node {
+            price
             catagory
             description
             icon {

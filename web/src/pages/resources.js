@@ -26,6 +26,7 @@ export const query = graphql`
   allSanityApps(sort: {fields: name, order: ASC}) {
         edges {
           node {
+            price
             catagory
             description
             icon {

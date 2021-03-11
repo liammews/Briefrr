@@ -6,7 +6,7 @@ const Signup = () => {
                 
                 <div className="w-full mb-8 lg:mb-0">
                     <h2 className="text-blue-600 dark:text-white text-3xl  m-0 font-bold">Join the community!</h2>
-                    <h3 className="text-blue-400 dark:text-gray-300 text-base mt-2 font-normal">Sign up to our email list and keep up to date with all things Briefrr</h3>
+                    <h3 className="text-blue-400 dark:text-gray-300 text-base mt-2 m-0 font-normal">Sign up to our email list and stay up to date!</h3>
                 </div>
 
                 <div className="w-full">

@@ -1,22 +1,22 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../constants/layout"
-import Hero from "../components/resources/learnhero"
+import Hero from "../components/resources/softwarehero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import ViewAll from "../components/resources/viewall";
 
 
 // markup
-const ResourcePage = () => {
+const SoftwarePage = () => {
     const data = useStaticQuery(query);
 
   return (
     <Layout>
       <Hero />
       <AppsComponent articles={data.allSanityApps.edges} />
-      <div className="w-full mt-8 mb-8">
       <ViewAll />
+      <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>
     </Layout>
@@ -25,7 +25,7 @@ const ResourcePage = () => {
 
 export const query = graphql`
 {
-    allSanityApps(filter: {catagory: {eq: "learn"}}, sort: {fields: name}) {
+    allSanityApps(filter: {catagory: {eq: "software"}}, sort: {fields: name}) {
         edges {
           node {
             price
@@ -46,4 +46,4 @@ export const query = graphql`
     }    
 `
 
-export default ResourcePage
+export default SoftwarePage
