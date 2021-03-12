@@ -45,7 +45,7 @@ const IndexPage = () => {
 
 export const query = graphql`
 {
-  allSanityApps(limit: 4, sort: {fields: _createdAt, order: DESC}) {
+  allSanityApps(limit: 3, sort: {fields: _createdAt, order: DESC}) {
         edges {
           node {
             catagory

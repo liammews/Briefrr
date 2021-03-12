@@ -4,6 +4,7 @@ import Layout from "../constants/layout"
 import Hero from "../components/resources/resourceshero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
+import Resourcecatlinks from "../constants/resourcecatlinks";
 
 
 // markup
@@ -13,6 +14,7 @@ const ResourcePage = () => {
   return (
     <Layout>
       <Hero />
+      <Resourcecatlinks  />
       <AppsComponent articles={data.allSanityApps.edges} />
       <div className="w-full mt-8 mb-8">
         <SignUp  />
