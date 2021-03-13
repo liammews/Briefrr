@@ -23,7 +23,7 @@ const Hero = () => {
                 <img className="flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/33e5ea9fea923f5f6688e6831802d606474782b7-257x354.png" alt="male illustration" />
             </div>
             <div>
-                <img className=" pr-10 flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/bcd5df4f91887ae40dcdb022ca49b9222e8f0afb-229x361.png" alt="female illustration" />
+                <img className=" pr-10 flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/3f571e8ca8adf20d35bee04f984cbade0e78144e-236x383.png" alt="female illustration" />
             </div>
             </div>
 

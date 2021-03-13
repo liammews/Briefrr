@@ -27,7 +27,7 @@ module.exports = {
           'caveat': ["caveat", "serif"]
         },
         height: {
-          xl: '560px',
+          xl: '600px',
         },
         colors: {
           darkgray: colors.blueGray,
