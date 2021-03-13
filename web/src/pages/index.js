@@ -18,8 +18,8 @@ const IndexPage = () => {
 
 
       <div>
-      <h2 className="text-black dark:text-white text-3xl lg:text-4xl text-center my-0 font-medium">Discover free resources</h2>
-      <h3 className="text-gray-400 text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">All you need to get started on your next brief</h3>
+      <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center my-0">Discover free resources</h2>
+      <h3 className="text-gray-400 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">All you need to get started on your next brief</h3>
       </div>
 
       <div>
@@ -28,7 +28,7 @@ const IndexPage = () => {
 
     <div>
       <Link to="/resources">
-    <button className="mt-10 bg-blue-500 hover:bg-blue-600 rounded-full px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
+    <button className="mt-10 bg-blue-500 hover:bg-blue-700 rounded-full px-6 py-3 text-white font-semibold transition duration-500 ease-in-out transform hover:scale-105">
       View all resources
     </button>
     </Link>
@@ -45,9 +45,10 @@ const IndexPage = () => {
 
 export const query = graphql`
 {
-  allSanityApps(limit: 3, sort: {fields: _createdAt, order: DESC}) {
+  allSanityApps(limit: 3) {
         edges {
           node {
+            price
             catagory
             description
             icon {

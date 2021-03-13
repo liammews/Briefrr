@@ -19,7 +19,7 @@ const appCard = ({ article }) => {
 
             <div className="flex flex-col mb-4">
                 <h3 className="text-black dark:text-white font-semibold text-base m-0">{article.node.name}</h3>
-                <p className="text-gray-500 dark:text-gray-300 m-0 text-sm">{article.node.description}</p>
+                <p className="text-gray-500 dark:text-gray-300 m-0 ">{article.node.description}</p>
             </div>
             </div>
 

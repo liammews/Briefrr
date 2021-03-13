@@ -6,7 +6,7 @@ const Hero = () => {
         
         <div><p className="dark:text-gray-300 mb-2">Resources</p></div>
         <div className="flex flex-row space-x-2">
-        <div><h1 className="text-5xl font-semibold dark:text-white">Icons</h1></div>
+        <div><h1 className="text-5xl dark:text-white">Icons</h1></div>
         </div>
         
         <hr className="dark:border-gray-700 my-8"></hr>

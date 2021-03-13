@@ -8,32 +8,32 @@ const SubHero = () => {
           <h3 className="text-xl mt-0 mb-6">Get field specific briefs. <br></br> What type of creator are you?</h3>
           <div className="flex flex-row flex-wrap">
             <div>
-                <Link>
-                <button className="flex-shrink-0 bg-green-200 text-green-700 rounded-full px-4 py-2 text-sm font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
+                <Link to="/graphic-design">
+                <button className="flex-shrink-0 bg-green-200 text-green-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
                     Graphic Design
                 </button>
                 </Link>
             </div>
 
             <div>
-                <Link>
-                <button className="flex-shrink-0 bg-pink-200 text-pink-700 rounded-full px-4 py-2 text-sm font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
+                <Link to="/ui-design">
+                <button className="flex-shrink-0 bg-pink-200 text-pink-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
                     UI Design
                 </button>
                 </Link>
             </div>
 
             <div>
-                <Link>
-                <button className="flex-shrink-0 bg-yellow-200 text-yellow-700 rounded-full px-4 py-2 text-sm font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
+                <Link to="/web-development">
+                <button className="flex-shrink-0 bg-yellow-200 text-yellow-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
                     Web Development
                 </button>
                 </Link>
             </div>
 
             <div>
-                <Link>
-                <button className="flex-shrink-0 bg-purple-200 text-purple-700 rounded-full px-4 py-2 text-sm font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
+                <Link to="/logo-design">
+                <button className="flex-shrink-0 bg-purple-200 text-purple-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
                     Logo Design
                 </button>
                 </Link>

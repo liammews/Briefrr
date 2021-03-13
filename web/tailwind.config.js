@@ -5,19 +5,26 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     colors: {
-      gray: colors.trueGray,
+      gray: colors.blueGray,
       red: colors.red,
       blue: colors.blue,
       black: colors.black,
       white: colors.white,
       purple: colors.purple,
-      green: colors.green,
+      green: colors.emerald,
       yellow: colors.amber,
       pink: colors.pink,
       transparent: 'transparent',
       current: 'currentColor',
     },
-    extend: {},
+    extend: {
+        fontFamily: { 
+          'manrope': ["manrope", "sans-serif"],
+        },
+        height: {
+          xl: '600px',
+        },
+    },
   },
   variants: {
     extend: {},

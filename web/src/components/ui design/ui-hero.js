@@ -6,7 +6,7 @@ const Hero = () => {
         
         <div><p className="dark:text-gray-300 mb-2">Inbox</p></div>
         <div className="flex flex-row space-x-2">
-        <div><h1 className="text-4xl lg:text-5xl font-semibold dark:text-white">UI Design</h1></div>
+        <div><h1 className="text-4xl lg:text-5xl dark:text-white">UI Design</h1></div>
         <div className="rounded-full pt-1 bg-gradient-to-r from-red-500 to-red-700 h-8 w-8 shadow-md text-white font-medium text-center"><p className="m-0 text-white">5</p></div>
         </div>
         

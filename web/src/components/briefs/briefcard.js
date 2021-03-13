@@ -15,10 +15,10 @@ const Briefcard = ({ article }) => {
       
       <div className="flex flex-col lg:flex-row justify-start lg:justify-between lg:items-center lg:space-x-4">
       <div className="flex flex-col">
-      <div className="flex flex-row items-center justify-between mb-2">
-        <div className="flex-row flex items-center space-x-2">
-        <p className="dark:text-white text-lg m-0"> <BiUser /></p>
-        <p className="dark:text-white font-semibold text-lg m-0">{article.node.from}</p>
+      <div className="flex flex-row items-center justify-between lg:mb-4">
+        <div className="flex-col lg:flex-row flex space-y-2 lg:space-y-0 space-x-0 lg:space-x-4 lg:items-center">
+        <div className="h-16 w-16 rounded-full bg-white border-2 border-white shadow-md"><img src="https://cdn.sanity.io/images/j2di4tpb/production/af1fa8c1011b14bc689c6c2e1121a69a684826f8-200x200.png" alt="avatar" /></div>
+        <p className="dark:text-white font-semibold text-xl m-0">{article.node.from}</p>
         </div>
 
         <div className="">
