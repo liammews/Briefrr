@@ -16,8 +16,8 @@ const CreatedBy = () => {
 
       <div>
       <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center mt-4 mb-0">Created by creators,<br></br> for creators.</h2>
-      <p className="text-3xl text-gray-600 dark:text-white text-center font-caveat">"Breifrr was create by me, for the 16-year-old me. Fresh from completing my A-Levels with no degree and seeking a job in Graphic Design. I wanted to give new designers the tools to kickstart their career and professional designers a fun tool to get creative outside of work."</p>
-      <a href="https://liammews.com" className="no-underline"><p className="text-3xl text-gray-600 dark:text-white hover:text-blue-500 text-center font-bold font-caveat">- Liam</p></a>
+      <p className="text-2xl lg:text-3xl text-gray-600 dark:text-white text-center font-caveat">"Breifrr was create by me, for the 16-year-old me. Fresh from completing my A-Levels with no degree and seeking a job in Graphic Design. I wanted to give new designers the tools to kickstart their career and professional designers a fun tool to get creative outside of work."</p>
+      <a href="https://liammews.com" className="no-underline"><p className="text-2xl lg:text-3xl text-gray-600 dark:text-white hover:text-blue-500 text-center font-bold font-caveat">- Liam</p></a>
       </div>
     </div>
 

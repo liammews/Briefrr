@@ -41,7 +41,7 @@ const IndexPage = () => {
     </div>
     </div>
 
-    <div className="my-20 lg:mt-36 lg:mb-10 w-full">
+    <div className="mt-20 lg:mt-36 lg:mb-0 w-full">
       <SignUp  />
     </div>
 

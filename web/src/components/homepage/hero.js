@@ -5,9 +5,9 @@ const Hero = () => {
     return(
         <div className="h-xl overflow-hidden relative flex flex-col items-center w-full rounded-md bg-blue-500 shadow-md px-4 py-12 lg:py-40">
             
-            <div className="w-full lg:mb-4 lg:max-w-3xl z-40 bg-blue-500 bg-opacity-90 feathered rounded-lg">
+            <div className="w-full lg:mb-4 lg:max-w-3xl z-40 bg-opacity-90 rounded-lg">
                 <h1 className="text-4xl lg:text-5xl text-white mb-4 text-center">The perfect practice ground <br className="hidden lg:inline"  />for<b className="text-green-200 font-caveat text-5xl lg:text-7xl"> creators</b></h1>
-                <h3 className="text-xl text-white font-normal mb-4 text-center">Briefrr gives you <b>realistic</b> practice briefs <br className="inline lg:hidden"  /> + a library of over <b>200</b> resources.</h3>
+                <h3 className="text-xl text-white font-normal mb-4 text-center">Briefrr gives you <b>realistic</b> practice briefs <br className="hidden lg:inline"  /> + a library of over <b>200</b> resources.</h3>
             </div>
 
             <div className="flex flex-row z-40">
@@ -18,12 +18,12 @@ const Hero = () => {
             </Link>
             </div>
 
-            <div className="absolute px-12 -bottom-10 w-full flex flex-row justify-between items-baseline">
+            <div className="absolute px-4 lg:px-12 -bottom-10 w-full flex flex-row justify-between items-baseline">
             <div>
                 <img className="flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/33e5ea9fea923f5f6688e6831802d606474782b7-257x354.png" alt="male illustration" />
             </div>
             <div>
-                <img className=" pr-10 flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/3f571e8ca8adf20d35bee04f984cbade0e78144e-236x383.png" alt="female illustration" />
+                <img className="lg:pr-10 flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/3f571e8ca8adf20d35bee04f984cbade0e78144e-236x383.png" alt="female illustration" />
             </div>
             </div>
 
