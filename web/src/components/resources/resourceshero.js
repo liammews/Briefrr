@@ -9,7 +9,7 @@ const Hero = () => {
         <div><h1 className="text-5xl dark:text-white">All Resources</h1></div>
         </div>
         
-        <hr className="dark:border-gray-700 my-8"></hr>
+        <hr className="dark:border-darkgray-700 my-8"></hr>
       </div>
     )
 }

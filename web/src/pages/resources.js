@@ -5,6 +5,7 @@ import Hero from "../components/resources/resourceshero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import Resourcecatlinks from "../constants/resourcecatlinks";
+import SEO from "../components/seo";
 
 
 // markup
@@ -14,6 +15,7 @@ const ResourcePage = () => {
   return (
     <Layout>
       <Hero />
+      <SEO title={'Resources'} />
       <Resourcecatlinks  />
       <AppsComponent articles={data.allSanityApps.edges} />
       <div className="w-full mt-8 mb-8">
@@ -25,7 +27,7 @@ const ResourcePage = () => {
 
 export const query = graphql`
 {
-  allSanityApps(sort: {fields: name, order: ASC}) {
+  allSanityApps{
         edges {
           node {
             price

@@ -5,12 +5,20 @@ import BriefComponent from "../components/briefs/briefs"
 import { graphql, useStaticQuery } from "gatsby"
 import SignUp from "../components/forms/signup"
 import SubHero from "../components/inbox/inboxsubhero"
+import SEO from "../components/seo"
 
 export const query = graphql`
 {
   allSanityBriefs(sort: {order: DESC, fields: _createdAt}) {
     edges {
       node {
+        avatar {
+          asset {
+            fluid {
+              src
+            }
+          }
+        }
         id
         from
         _rawBody
@@ -29,6 +37,7 @@ const Inbox = () => {
   return (
     <Layout>
       <Hero />
+      <SEO title={'Inbox'} />
       <SubHero />
       <BriefComponent articles={data.allSanityBriefs.edges} />
 

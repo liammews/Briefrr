@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { RiNotification2Line } from "react-icons/ri"
 import { FaBars, FaTimes } from "react-icons/fa"
 import Mainmenu from "./mainmenu"
 import { Link } from "gatsby"
@@ -12,7 +11,7 @@ function Header ({ siteTitle }) {
 
         <div>
 
-        <header className="w-full z-50 fixed h-16 bg-gray-50 dark:bg-gray-900 px-4 lg:px-10 flex flex-row items-center border-b dark:border-gray-700 border-gray-200 justify-between">
+        <header className="w-full z-50 fixed h-16 bg-gray-50 dark:bg-darkgray-900 px-4 lg:px-10 flex flex-row items-center border-b dark:border-darkgray-700 border-gray-200 justify-between">
             
             <Link to="/" className="no-underline">
             <div className="flex flex-row space-x-2 items-center">
@@ -28,15 +27,9 @@ function Header ({ siteTitle }) {
 
             <div className="flex flex-row space-x-10 items-center">
 
-                <div className="pt-1">
-                <button className="text-xl text-black dark:text-white overflow-auto">
-                    <RiNotification2Line />
-                </button>
-                </div>
-
                 <div className="flex justify-center lg:hidden">
-                    <button onClick={() => toggleExpansion(!isExpanded)} className={`${ isExpanded ? `hidden` : `inline` } flex items-center py-2 text-black dark:text-white text-lg`}>
-                    <FaBars  />
+                    <button onClick={() => toggleExpansion(!isExpanded)} className={`${ isExpanded ? `hidden` : `inline` } flex items-center py-2 text-blue-500 dark:text-green-300 text-lg`}>
+                    <b className="text-sm font-normal mr-2 text-black dark:text-white">Menu</b> <FaBars  />
                     </button>
                     <button onClick={() => toggleExpansion(!isExpanded)} className={`${ isExpanded ? `inline` : `hidden` } flex items-center py-2 text-black dark:text-white text-xl`}>
                     <FaTimes  />
@@ -52,7 +45,7 @@ function Header ({ siteTitle }) {
 
         
 <div className={`${ isExpanded ? `block` : `hidden` } lg:hidden flex`}>
-<div className="w-screen h-screen bg-white dark:bg-gray-800 text-black dark:text-white fixed top-16 left-0 border-b-2 border-gray-300 dark:border-gray-400 z-50">
+<div className="w-screen h-screen bg-white dark:bg-darkgray-800 text-black dark:text-white fixed top-16 left-0 border-b-2 border-gray-300 dark:border-gray-400 z-50">
 
    <div className="px-10 pt-10">
    <Mainmenu  />

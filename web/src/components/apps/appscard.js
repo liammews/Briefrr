@@ -6,7 +6,7 @@ const appCard = ({ article }) => {
 
     <div className="flex w-full">
 
-        <div className="z-20 lg:h-42 mb-2 w-full flex flex-col justify-between bg-white dark:bg-gray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
+        <div className="z-20 lg:h-64 mb-2 w-full flex flex-col justify-between bg-white dark:bg-darkgray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
         <div className={`${article.node.price} rounded-full px-2 py-1 absolute z-30 right-4 top-4`}>
                 <p className={`${article.node.price}text capitalize m-0 text-sm`}>{article.node.price}</p>
@@ -19,7 +19,7 @@ const appCard = ({ article }) => {
 
             <div className="flex flex-col mb-4">
                 <h3 className="text-black dark:text-white font-semibold text-base m-0">{article.node.name}</h3>
-                <p className="text-gray-500 dark:text-gray-300 m-0 ">{article.node.description}</p>
+                <p className="text-gray-500 dark:text-gray-300 m-0 text-sm">{article.node.description}</p>
             </div>
             </div>
 

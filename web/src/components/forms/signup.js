@@ -2,7 +2,7 @@ import React from "react";
 
 const Signup = () => {
   return (
-            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md bg-blue-100 bg-opacity-50 dark:bg-gray-900 p-6 lg:px-10 lg:py-10 mb-12">
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md bg-blue-100 bg-opacity-50 dark:bg-darkgray-900 p-6 lg:px-10 lg:py-10 mb-12">
                 
                 <div className="w-full mb-8 lg:mb-0">
                     <h2 className="text-blue-600 dark:text-green-200 text-3xl  m-0 font-bold">Join the community!</h2>

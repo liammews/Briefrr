@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import { FaInbox } from "react-icons/fa"
-import { AiOutlineDown } from "react-icons/ai"
 
 const data = [
   {
@@ -21,11 +20,6 @@ const data = [
   },
   {
     id: 4,
-    text: "Web Development",
-    url: "/web-development",
-  },
-  {
-    id: 5,
     text: "Logo Design",
     url: "/logo-design",
   },

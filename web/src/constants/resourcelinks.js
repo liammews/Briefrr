@@ -10,28 +10,43 @@ const data = [
   },
   {
     id: 2,
-    text: "Icons",
-    url: "/icons",
+    text: "Accessibility",
+    url: "/accessibility",
   },
   {
     id: 3,
-    text: "Images",
-    url: "/images",
+    text: "Colour",
+    url: "/colour",
   },
   {
     id: 4,
-    text: "Learn",
-    url: "/learn",
+    text: "icons",
+    url: "/icons",
   },
   {
     id: 5,
-    text: "Type",
-    url: "/type",
+    text: "images",
+    url: "/images",
   },
   {
     id: 6,
-    text: "Software",
+    text: "inspiration",
+    url: "/inspiration",
+  },
+  {
+    id: 7,
+    text: "learn",
+    url: "/learn",
+  },
+  {
+    id: 8,
+    text: "software",
     url: "/software",
+  },
+  {
+    id: 9,
+    text: "type",
+    url: "/type",
   },
 ]
 
@@ -39,7 +54,7 @@ const tempLinks = data.map(link => {
 
   return (
     <li className="mt-0 pl-0 text-gray-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-400" key={link.id}>
-      <Link className="no-underline" to={link.url}>{link.text}</Link>
+      <Link className="no-underline capitalize" to={link.url}>{link.text}</Link>
     </li>
   )
 })

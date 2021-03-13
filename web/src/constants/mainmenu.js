@@ -32,7 +32,7 @@ function Mainmenu () {
 
         <div><Links /></div>
 
-        <p className="text-xs text-gray-500 dark:text-gray-300 mt-8">© Breifrr 2020<br></br>A project by <a href="https://liammews.com" className="text-blue-500 dark:text-blue-400">Liam Mews</a></p>
+        <p className="text-xs text-gray-500 dark:text-gray-300 mt-8">© Breifrr 2020</p>
        
         </nav>
 

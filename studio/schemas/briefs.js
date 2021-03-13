@@ -21,6 +21,11 @@ export default {
         type: 'string'
     },
     {
+      name: 'avatar',
+      title: 'Avatar',
+      type: 'image'
+     },
+    {
         name: 'catagory',
         title: 'Catagory',
         type: 'string'

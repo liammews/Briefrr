@@ -5,8 +5,8 @@ const Hero = () => {
     return(
         <div className="h-xl overflow-hidden relative flex flex-col items-center w-full rounded-md bg-blue-500 shadow-md px-4 py-12 lg:py-40">
             
-            <div className="w-full lg:mb-4 lg:max-w-3xl z-40 bg-blue-500 bg-opacity-90 rounded-lg">
-                <h1 className="text-4xl lg:text-5xl text-white mb-4 text-center">The perfect practice ground <br className="hidden lg:inline"  />for<b className="text-green-200"> creators</b></h1>
+            <div className="w-full lg:mb-4 lg:max-w-3xl z-40 bg-blue-500 bg-opacity-90 feathered rounded-lg">
+                <h1 className="text-4xl lg:text-5xl text-white mb-4 text-center">The perfect practice ground <br className="hidden lg:inline"  />for<b className="text-green-200 font-caveat text-5xl lg:text-7xl"> creators</b></h1>
                 <h3 className="text-xl text-white font-normal mb-4 text-center">Briefrr gives you <b>realistic</b> practice briefs <br className="inline lg:hidden"  /> + a library of over <b>200</b> resources.</h3>
             </div>
 
@@ -20,10 +20,10 @@ const Hero = () => {
 
             <div className="absolute px-12 -bottom-10 w-full flex flex-row justify-between">
             <div>
-                <img src="https://cdn.sanity.io/images/j2di4tpb/production/da58dc99dbac0383ae61d55d0c90ec4a6bbcd006-290x400.png" />
+                <img src="https://cdn.sanity.io/images/j2di4tpb/production/da58dc99dbac0383ae61d55d0c90ec4a6bbcd006-290x400.png" alt="male illustration" />
             </div>
             <div>
-                <img className="transform "src="https://cdn.sanity.io/images/j2di4tpb/production/acc693d34d4a09df7f5c46fb66b5092ba51bfe64-256x400.png" />
+                <img className="transform pr-10"src="https://cdn.sanity.io/images/j2di4tpb/production/acc693d34d4a09df7f5c46fb66b5092ba51bfe64-256x400.png" alt="female illustration" />
             </div>
             </div>
 

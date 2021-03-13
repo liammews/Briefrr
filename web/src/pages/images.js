@@ -5,6 +5,7 @@ import Hero from "../components/resources/imageshero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import ViewAll from "../components/resources/viewall";
+import SEO from "../components/seo";
 
 
 // markup
@@ -14,6 +15,7 @@ const ResourcePage = () => {
   return (
     <Layout>
       <Hero />
+      <SEO title={'Image'} />
       <AppsComponent articles={data.allSanityApps.edges} />
       <div className="w-full mt-8 mb-8">
       <ViewAll />

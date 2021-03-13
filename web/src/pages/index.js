@@ -4,6 +4,8 @@ import Hero from "../components/homepage/hero"
 import Layout from "../constants/layout"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
+import CreatedBy from "../components/homepage/createdby";
+import SEO from "../components/seo";
 
 // markup
 const IndexPage = () => {
@@ -11,8 +13,12 @@ const IndexPage = () => {
 
   return (
     <Layout>
+
+    <SEO title={'Briefrr'} description={'The perfect practice ground for creators.'} />
       
     <Hero></Hero>
+
+    <CreatedBy />
 
     <div className="my-20 lg:my-36 flex flex-col items-center">
 
@@ -46,6 +52,7 @@ const IndexPage = () => {
 export const query = graphql`
 {
   allSanityApps(limit: 3) {
+    totalCount
         edges {
           node {
             price

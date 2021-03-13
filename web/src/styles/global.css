@@ -5,6 +5,10 @@
 
 @layer utilities{
 
+  .feathered {
+    box-shadow: 10px 10px 50px rgba(59, 130, 246, 1);
+  }
+
 /* --
 .title-background{
   display: flex;
@@ -140,5 +144,22 @@
   .freetext {
     @apply text-green-700
   }
-
+  .inspiration {
+    @apply bg-orange-200
+  }
+  .inspirationtext {
+    @apply text-orange-700
+  }
+  .accessibility {
+    @apply bg-fuchsia-200
+  }
+  .accessibilitytext {
+    @apply text-fuchsia-700
+  }
+  .colour {
+    @apply bg-teal-200
+  }
+  .colourtext {
+    @apply text-teal-700
+  }
 }

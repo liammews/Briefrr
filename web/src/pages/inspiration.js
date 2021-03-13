@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../constants/layout"
-import Hero from "../components/resources/learnhero"
+import Hero from "../components/resources/inspirationhero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import ViewAll from "../components/resources/viewall";
@@ -15,7 +15,7 @@ const ResourcePage = () => {
   return (
     <Layout>
       <Hero />
-      <SEO title={'Learn'} />
+      <SEO title={'Inspiration'} />
       <AppsComponent articles={data.allSanityApps.edges} />
       <div className="w-full mt-8 mb-8">
       <ViewAll />
@@ -27,7 +27,7 @@ const ResourcePage = () => {
 
 export const query = graphql`
 {
-    allSanityApps(filter: {catagory: {eq: "learn"}}, sort: {fields: name}) {
+    allSanityApps(filter: {catagory: {eq: "inspiration"}}, sort: {fields: name}) {
         edges {
           node {
             price

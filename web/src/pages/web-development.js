@@ -4,6 +4,7 @@ import Hero from "../components/web development/web-hero"
 import BriefComponent from "../components/briefs/briefs"
 import { graphql, useStaticQuery } from "gatsby"
 import SignUp from "../components/forms/signup"
+import SEO from "../components/seo"
 
 export const query = graphql`
 {
@@ -28,6 +29,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero />
+      <SEO title={'Web Development'} />
       <BriefComponent articles={data.allSanityBriefs.edges} />
 
       <div className="w-full">
