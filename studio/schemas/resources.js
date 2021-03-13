@@ -28,7 +28,10 @@ export default {
     {
         name: 'description',
         title: 'Decription',
-        type: 'string'
+        type: 'string',
+        options: {
+          maxLength: 124
+        }
       },
       {
         name: 'slug',
@@ -36,7 +39,7 @@ export default {
         type: 'slug',
         description: 'Some frontend will require a slug to be set to be able to show the project',
         options: {
-          source: 'title',
+          source: 'name',
           maxLength: 96
         }
       },

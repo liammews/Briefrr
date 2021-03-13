@@ -18,12 +18,12 @@ const Hero = () => {
             </Link>
             </div>
 
-            <div className="absolute px-12 -bottom-10 w-full flex flex-row justify-between">
+            <div className="absolute px-12 -bottom-10 w-full flex flex-row justify-between items-baseline">
             <div>
-                <img src="https://cdn.sanity.io/images/j2di4tpb/production/da58dc99dbac0383ae61d55d0c90ec4a6bbcd006-290x400.png" alt="male illustration" />
+                <img className="flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/33e5ea9fea923f5f6688e6831802d606474782b7-257x354.png" alt="male illustration" />
             </div>
             <div>
-                <img className="transform pr-10"src="https://cdn.sanity.io/images/j2di4tpb/production/acc693d34d4a09df7f5c46fb66b5092ba51bfe64-256x400.png" alt="female illustration" />
+                <img className=" pr-10 flex-shrink-0" src="https://cdn.sanity.io/images/j2di4tpb/production/bcd5df4f91887ae40dcdb022ca49b9222e8f0afb-229x361.png" alt="female illustration" />
             </div>
             </div>
 
