@@ -10,7 +10,9 @@ const Signup = () => {
                 </div>
 
                 <div className="w-full">
-                <form name="signup" method="POST" data-netlify="true">
+                <form name="signup" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+
+                <input type="hidden" name="form-name" value="signup" />
 
                 <div class="text-gray-700 dark:text-gray-300 flex flex-row pb-1">
                     <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-md rounded-r-none rounded-br-none focus:shadow-outline" type="text" placeholder="Email address" name="email"/>

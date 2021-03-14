@@ -31,7 +31,7 @@ const appCard = ({ article }) => {
             </div>
             </Link>
 
-            <a href={article.node.link} target="_blank" className="no-underline">
+            <a href={article.node.link} target="_blank" className="no-underline" rel="noreferrer">
             <div className="flex flex-row px-3 py-1 rounded-full border border-gray-400 hover:bg-blue-200 hover:border-blue-200 dark:hover:bg-blue-600 dark:hover:border-blue-800 items-center transition duration-500 ease-in-out transform hover:scale-105">
                 <div><p className="m-0 stroke-current text-blue-600 dark:text-white text-sm">Use</p></div>
                 <div><p className="m-0 ml-1 stroke-current text-blue-600 dark:text-white text-sm">→</p></div>

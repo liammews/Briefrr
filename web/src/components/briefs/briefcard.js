@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { BiUser } from "react-icons/bi"
 import { FaTimes } from "react-icons/fa"
 import BlockContent from '../block-content'
 import { Link } from 'gatsby'

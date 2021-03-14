@@ -1,7 +1,7 @@
 import React from "react"
 import Links from "./links"
 import { MdChatBubble } from "react-icons/md"
-import { FaHome } from "react-icons/fa"
+import { FaHome, FaTwitter } from "react-icons/fa"
 import Resourcelinks from "./resourcelinks"
 import BriefLinks from "./brieflinks"
 import { Link } from "gatsby"
@@ -32,7 +32,9 @@ function Mainmenu () {
 
         <div><Links /></div>
 
-        <p className="text-xs text-gray-500 dark:text-gray-300 mt-8">© Breifrr 2020</p>
+
+        <a href="https://twitter.com/briefrr_" target="_blank" rel="noreferrer" className="text-grey-500 dark:text-gray-300 mt-8 mb-4 text-lg hover:text-blue-500 dark:hover:text-green-300"><FaTwitter /></a>
+        <p className="text-xs text-gray-500 dark:text-gray-300 mt-0">© Breifrr 2020</p>
        
         </nav>
 

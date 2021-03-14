@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { RiLinksFill } from "react-icons/ri"
+import { FaEnvelope } from "react-icons/fa"
 
 const data = [
   {
@@ -12,11 +12,6 @@ const data = [
     id: 2,
     text: "Suggest a resource",
     url: "/suggest",
-  },
-  {
-    id: 3,
-    text: "Follow us on Twitter",
-    url: "https://twitter.com/briefrr_",
   },
 ]
 
@@ -35,8 +30,8 @@ export default ({ styleClass }) => {
     <div>
     <button onClick={() => toggleExpansion(!isExpanded)} className="focus:outline-none">
     <div className="flex flex-row space-x-2 items-center mb-4">
-        <div className="p-1 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-md shadow-lg"><p className="m-0 text-white"><RiLinksFill /></p></div>
-        <div><p className="font-semibold dark:text-white m-0">Links</p></div>
+        <div className="p-1 bg-gradient-to-r from-green-400 to-green-600 text-white rounded-md shadow-lg"><p className="m-0 text-white"><FaEnvelope /></p></div>
+        <div><p className="font-semibold dark:text-white m-0">Contact Us</p></div>
         </div>
     </button>
     <ul className={`${ isExpanded ? `flex flex-col` : `hidden` } ${styleClass ? styleClass : ""} pl-0 list-none my-0 space-y-2`}>
