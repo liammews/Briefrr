@@ -7,6 +7,7 @@ import portableText from './portableText'
 import figure from './figure'
 import briefs from './briefs'
 import resources from './resources'
+import products from './products'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,5 +22,6 @@ export default createSchema({
     //Types
     briefs,
     resources,
+    products,
   ]),
 })

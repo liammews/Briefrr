@@ -17,6 +17,12 @@ module.exports = {
         dataset: "production",
       },
     },
+    {
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+				apiKey: 'YOUR_SNIPCART_KEY'
+			}
+		},
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",

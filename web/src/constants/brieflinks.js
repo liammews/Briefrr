@@ -23,6 +23,11 @@ const data = [
     text: "Logo Design",
     url: "/logo-design",
   },
+  {
+    id: 4,
+    text: "Premium Briefs",
+    url: "/store",
+  },
 ]
 
 const tempLinks = data.map(link => {
