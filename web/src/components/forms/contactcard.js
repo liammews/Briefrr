@@ -12,7 +12,7 @@ const contactCard = () => {
                 <div className="lg:w-3/5 w-full">
                 <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
-                <input type="hidden" name="contact" value="contact" />
+                <input type="hidden" name="form-name" value="contact" />
 
                 <div class="text-gray-700 dark:text-gray-300 mb-6">
                     <label class="block mb-1" for="forms-labelOverInputCode">Full name</label>

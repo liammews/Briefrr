@@ -13,7 +13,7 @@ const contactCard = () => {
                 <div className="lg:w-3/5 w-full">
                 <form name="submit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
-                <input type="hidden" name="suggest" value="submit" />
+                <input type="hidden" name="form-name" value="submit" />
 
                 <div class="text-gray-700 dark:text-white mb-8">
                     <label class="block mb-1" for="forms-labelOverInputCode">Your full name</label>
