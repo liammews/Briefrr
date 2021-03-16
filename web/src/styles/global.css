@@ -103,63 +103,33 @@
     @apply min-h-screen m-0 w-full;
   }
   .icons {
-    @apply bg-blue-200;
-  }
-  .iconstext {
-    @apply text-blue-700;
+    @apply bg-blue-200 text-blue-700;
   }
   .images {
-    @apply bg-yellow-200;
-  }
-  .imagestext {
-    @apply text-yellow-700;
+    @apply bg-yellow-200 text-yellow-700;
   }
   .type {
-    @apply bg-green-200;
-  }
-  .typetext {
-    @apply text-green-700;
+    @apply bg-green-200 text-green-700;
   }
   .learn {
-    @apply bg-pink-200;
-  }
-  .learntext {
-    @apply text-pink-700;
+    @apply bg-pink-200 text-pink-700;
   }
   .software {
-    @apply bg-purple-200;
-  }
-  .softwaretext {
-    @apply text-purple-700;
+    @apply bg-purple-200 text-purple-700;
   }
   .paid {
-    @apply bg-yellow-200
-  }
-  .paidtext {
-    @apply text-yellow-700
+    @apply bg-yellow-200 text-yellow-700;
   }
   .free {
-    @apply bg-green-200
-  }
-  .freetext {
-    @apply text-green-700
+    @apply bg-green-200 text-green-700;
   }
   .inspiration {
-    @apply bg-orange-200
-  }
-  .inspirationtext {
-    @apply text-orange-700
+    @apply bg-orange-200 text-orange-700
   }
   .accessibility {
-    @apply bg-fuchsia-200
-  }
-  .accessibilitytext {
-    @apply text-fuchsia-700
+    @apply bg-fuchsia-200 text-fuchsia-700;
   }
   .colour {
-    @apply bg-teal-200
-  }
-  .colourtext {
-    @apply text-teal-700
+    @apply bg-teal-200 text-teal-700
   }
 }

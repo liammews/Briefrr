@@ -9,7 +9,7 @@ const appCard = ({ article }) => {
         <div className="z-20 lg:h-64 mb-2 w-full flex flex-col justify-between bg-white dark:bg-darkgray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
         <div className={`${article.node.price} rounded-full px-2 py-1 absolute z-30 right-4 top-4`}>
-                <p className={`${article.node.price}text capitalize m-0 text-sm`}>{article.node.price}</p>
+                <p className={`${article.node.price} capitalize m-0 text-sm`}>{article.node.price}</p>
         </div>
 
             <div className="flex flex-col flex-wrap space-y-4 mb-6">
@@ -27,7 +27,7 @@ const appCard = ({ article }) => {
 
             <Link to={`/${article.node.catagory}`} className="no-underline">
             <div className={`${article.node.catagory} rounded-full px-3 py-1 shadow-sm transition duration-500 ease-in-out transform hover:scale-105`}>
-                <p className={`${article.node.catagory}text capitalize m-0 text-sm`}>{article.node.catagory}</p>
+                <p className={`${article.node.catagory} capitalize m-0 text-sm`}>{article.node.catagory}</p>
             </div>
             </Link>
 

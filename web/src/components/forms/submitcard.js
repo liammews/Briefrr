@@ -21,6 +21,11 @@ const contactCard = () => {
                 </div>
 
                 <div class="text-gray-700 dark:text-white mb-8">
+                    <label class="block mb-1" for="forms-labelOverInputCode">Email address</label>
+                    <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-lg focus:shadow-outline" type="text" placeholder="p.casso@outlook.com" name="email"/>
+                </div>
+
+                <div class="text-gray-700 dark:text-white mb-8">
                     <label class="block mb-1" for="forms-labelOverInputCode">Twitter name or link to online portfolio</label>
                     <input class="mt-2 w-2/3 h-10 px-3 text-base  text-black placeholder-gray-300 border rounded-lg focus:shadow-outline mb-2" type="text" placeholder="@pettercasso - pettercas.so" name="links"/>
                     <p className="text-gray-400 dark:text-darkgray-400 mt-0 mb-2 text-sm">If we share your project we would love to link to your socials or online portfolio, this is optional!</p>
