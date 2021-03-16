@@ -9,9 +9,14 @@ import SEO from "../components/seo"
 
 export const query = graphql`
 {
-  allSanityBriefs(sort: {order: DESC, fields: _createdAt}) {
+  allSanityBriefs(sort: {order: ASC, fields: publishedAt}) {
     edges {
       node {
+        _rawOverview
+        _rawObjectives
+        _rawDelivery
+        _rawClientBackground
+        _rawAudience
         avatar {
           asset {
             fluid {
@@ -19,13 +24,14 @@ export const query = graphql`
             }
           }
         }
-        id
+        catagory
         from
-        _rawBody
+        publishedAt
+        link
         subject
+        title
       }
     }
-    totalCount
   }
 }
 `

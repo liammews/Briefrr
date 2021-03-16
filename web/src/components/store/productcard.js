@@ -19,7 +19,7 @@ const appCard = ({ article }) => {
     <div><p className="text-gray-700 dark:text-gray-300 mt-0 mb-4">{article.node.name}</p></div>
 
     <div className="flex flex-col md:flex-row items-end justify-between flex-wrap">
-    <div><p className="text-black dark:text-white font-manrope font-bold my-0">{article.node.price}</p></div>
+    <div><p className="text-black dark:text-white font-manrope font-bold my-0">£{article.node.price}</p></div>
 
     </div>
 

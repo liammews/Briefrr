@@ -10,7 +10,9 @@ const contactCard = () => {
                 </div>
 
                 <div className="lg:w-3/5 w-full">
-                <form name="suggest" method="POST" data-netlify="true">
+                <form name="suggest" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+
+                <input type="hidden" name="suggest" value="suggest" />
 
                 <div class="text-gray-700 dark:text-gray-300 mb-6">
                     <label class="block mb-1" for="forms-labelOverInputCode">Your name</label>
@@ -23,7 +25,7 @@ const contactCard = () => {
                 </div>
 
                 <div class="text-gray-700 dark:text-gray-300 mb-6">
-                    <label class="block mb-1" for="forms-labelOverInputCode">What's the link?</label>
+                    <label class="block mb-1" for="forms-labelOverInputCode">Where can we find it?</label>
                     <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-lg focus:shadow-outline" type="text" placeholder="briefrr.co" name="link"/>
                 </div>
 

@@ -24,9 +24,9 @@ const data = [
     url: "/logo-design",
   },
   {
-    id: 4,
-    text: "Premium Briefs",
-    url: "/store",
+    id: 5,
+    text: "Submit Your Work",
+    url: "/submit",
   },
 ]
 

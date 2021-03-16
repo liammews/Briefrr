@@ -15,7 +15,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
-        allSanityProducts {
+        allSanityBriefs {
             edges {
               node {
                 link
@@ -25,10 +25,10 @@ exports.createPages = async ({ graphql, actions }) => {
         }
   `)
 
-  result.data.allSanityProducts.edges.forEach(({ node }) => {
+  result.data.allSanityBriefs.edges.forEach(({ node }) => {
     createPage({
       path: node.link,
-      component: path.resolve(`./src/templates/productpage.js`),
+      component: path.resolve(`./src/templates/briefpage.js`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.

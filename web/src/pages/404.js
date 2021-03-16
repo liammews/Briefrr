@@ -1,54 +1,32 @@
-import * as React from "react"
+import React from "react"
+import Layout from "../constants/layout"
+import SEO from "../components/seo";
 import { Link } from "gatsby"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
 // markup
-const NotFoundPage = () => {
+const Four04Page = () => {
+
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+      <SEO title={'Whoops!'} />
+      <div className="w-full bg-white dark:bg-gray-900 p-4 lg:p-24 flex flex-col items-center shadow-md rounded-md">
+      <div>
+        <h1 className="text-9xl text-center">Oh no! 🤦🏽‍♂️</h1>
+        <h2 className="text-2xl text-center font-normal">Well that wasn't meant to happen!</h2>
+
+        </div>
+        <div className="mt-12">
+        <Link to="/">
+          <button className="bg-blue-500 hover:bg-blue-600 rounded-md p-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105 mr-4">
+            Get back to safety!
+          </button>
+        </Link>
+      </div>
+      </div>
+
+    </Layout>
   )
 }
 
-export default NotFoundPage
+export default Four04Page

@@ -27,6 +27,12 @@ function Header ({ siteTitle }) {
 
             <div className="flex flex-row space-x-10 items-center">
 
+                <Link to="/submit" className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
+                    <button>
+                        Submit your work!
+                    </button>
+                </Link>
+
                 <div className="flex justify-center lg:hidden">
                     <button onClick={() => toggleExpansion(!isExpanded)} className={`${ isExpanded ? `hidden` : `inline` } flex items-center py-2 text-blue-500 dark:text-green-300 text-lg`}>
                     <b className="text-sm font-normal mr-2 text-black dark:text-white">Menu</b> <FaBars  />

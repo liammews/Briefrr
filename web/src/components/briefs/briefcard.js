@@ -39,23 +39,15 @@ const Briefcard = ({ article }) => {
 
       <div className={`${ isExpanded ? `flex` : `hidden` } flex-col max-w-4xl -mt-8 lg:-mt-10`}>
         <div className="lg:pl-20">
-        <p>{article.node._rawBody && <BlockContent blocks={article.node._rawBody} />}</p>
+        <p>{article.node._rawOverview && <BlockContent blocks={article.node._rawOverview} />}</p>
         </div>
 
         <div className="flex flex-row justify-between lg:pl-20 lg:mt-8">
 
           <div>
-          <Link to="/resources">
-          <button className="flex-shrink-0 bg-blue-200 text-blue-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
-            View resources
-          </button>
-        </Link>
-        </div>
-
-        <div>
-          <Link to="/inspiration">
-          <button className="flex-shrink-0 bg-green-200 text-green-700 rounded-full px-4 py-2 font-normal transition duration-500 ease-in-out transform hover:scale-105 mr-4 mb-4">
-            Find inspiration
+          <Link to={`/${article.node.link}`}>
+          <button className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105`">
+            Start Brief!
           </button>
         </Link>
         </div>

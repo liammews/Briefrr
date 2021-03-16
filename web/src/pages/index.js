@@ -24,8 +24,8 @@ const IndexPage = () => {
 
 
       <div>
-      <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center my-0">Discover free resources</h2>
-      <h3 className="text-gray-400 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">All you need to get started on your next brief</h3>
+      <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center my-0">Discover Resources</h2>
+      <h3 className="text-gray-400 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">Browse our library of over 200 resources</h3>
       </div>
 
       <div>

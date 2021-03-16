@@ -5,6 +5,11 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'title',
+      title: 'Title',
+      type: 'string'
+    },
+    {
         name: 'publishedAt',
         title: 'Published at',
         description: 'You can use this field to schedule projects where you show them',
@@ -46,9 +51,29 @@ export default {
         type: 'text',
       },
     {
-      title: 'Body', 
-      name: 'body',
+      title: 'overview', 
+      name: 'Overview',
       type: 'PortableText', 
-    }
+    },
+    {
+      title: 'background', 
+      name: 'Client_Background',
+      type: 'PortableText', 
+    },
+    {
+      title: 'audience', 
+      name: 'Audience',
+      type: 'PortableText', 
+    },
+    {
+      title: 'objectives', 
+      name: 'Objectives',
+      type: 'PortableText', 
+    },
+    {
+      title: 'delivery', 
+      name: 'Delivery',
+      type: 'PortableText', 
+    },
   ],
 }

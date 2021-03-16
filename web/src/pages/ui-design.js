@@ -11,6 +11,11 @@ export const query = graphql`
   allSanityBriefs(filter: {catagory: {eq: "UI Design"}}, sort: {order: DESC, fields: _createdAt}) {
     edges {
       node {
+        _rawOverview
+        _rawObjectives
+        _rawDelivery
+        _rawClientBackground
+        _rawAudience
         avatar {
           asset {
             fluid {
@@ -18,13 +23,14 @@ export const query = graphql`
             }
           }
         }
-        id
+        catagory
         from
-        _rawBody
+        publishedAt
+        link
         subject
+        title
       }
     }
-    totalCount
   }
 }
 `

@@ -5,7 +5,7 @@ const Hero = () => {
     return(
         <div className="flex flex-col">
         
-        <div><Link href="/inbox" className="no-underline"><p className="text-blue-500">← Back To Inbox</p></Link></div>
+        <div><Link href="/inbox" className="no-underline"><p className="text-blue-500 dark:text-green-300 no-underline">← Back To Inbox</p></Link></div>
         <h1 className="text-4xl lg:text-5xl dark:text-white">UI Design</h1>
         
         <hr className="dark:border-gray-700 my-8"></hr>
