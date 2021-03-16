@@ -30,7 +30,15 @@ function Mainmenu () {
 
         <div className="mb-8"><Resourcelinks /></div>
 
-        <div><Links /></div>
+        <div className="mb-8"><Links /></div>
+
+        <div className="lg:hidden inline mb-4">
+                <Link to="/submit" className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
+                    <button>
+                        Submit your work!
+                    </button>
+                </Link>
+        </div>
 
 
         <a href="https://twitter.com/briefrr_" target="_blank" rel="noreferrer" className="text-blue-500 dark:text-gray-300 mt-8 mb-4 text-lg hover:text-blue-700 dark:hover:text-green-300"><FaTwitter /></a>

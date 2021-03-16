@@ -69,7 +69,7 @@ function BlogPost (props) {
         <div className="flex-col flex items-center">
         <div className="rounded-full h-24 w-24 mb-6 bg-pink-200 flex items-center justify-center"><div  className="text-4xl text-pink-700 m-0"><FaImage /></div></div>
             <p className="text-lg font-bold font-manrope my-0 text-center mb-2">Step 2 - Resources</p>
-            <p className="my-0 text-center">Use our <Link to="/resource">resource library</Link> to find things like images, icons and fonts to use for your project. There are over 200 resources to help you with you.</p>
+            <p className="my-0 text-center">Use our <Link to="/resources">resource library</Link> to find things like images, icons and fonts to use for your project. There are over 200 resources to help you with you.</p>
         </div>
 
 
