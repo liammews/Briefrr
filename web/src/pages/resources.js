@@ -18,6 +18,7 @@ const ResourcePage = () => {
       <SEO title={'Resources'} />
       <Resourcecatlinks  />
       <AppsComponent articles={data.allSanityApps.edges} />
+      <Resourcecatlinks className />
       <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>
