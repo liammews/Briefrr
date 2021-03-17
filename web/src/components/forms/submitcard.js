@@ -11,7 +11,7 @@ const contactCard = () => {
                 </div>
 
                 <div className="lg:w-3/5 w-full">
-                <form name="submit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="submit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/submit-thankyou">
 
                 <input type="hidden" name="form-name" value="submit" />
 

@@ -10,7 +10,7 @@ const contactCard = () => {
                 </div>
 
                 <div className="lg:w-3/5 w-full">
-                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/contact-thankyou">
 
                 <input type="hidden" name="form-name" value="contact" />
 

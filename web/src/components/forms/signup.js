@@ -10,7 +10,7 @@ const Signup = () => {
                 </div>
 
                 <div className="w-full">
-                <form name="signup" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="signup" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/signup-thankyou">
 
                 <input type="hidden" name="form-name" value="signup" />
 
