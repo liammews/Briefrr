@@ -14,8 +14,8 @@ function BlogPost (props) {
         <div className="rounded-full shadow-sm h-36 w-36 mb-8">
         <img className="rounded-full h-36 border-4 border-white" src={`${avatar.asset.fluid.src}`}  />
         </div>
-        <h1 className="text-center mb-8 text-white">{title}</h1>
-        <p className="mt-0 mb-2 text-xl max-w-lg text-center text-white">{subject}</p>
+        <h1 className="text-center mb-4 text-white text-3xl max-w-2xl">{title}</h1>
+        <p className="mt-0 mb-2 text-xl max-w-xl text-center text-white">{subject}</p>
 
     </div>
 
