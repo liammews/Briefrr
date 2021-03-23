@@ -1,9 +1,7 @@
 import React from "react"
 import Links from "./links"
-import { MdChatBubble } from "react-icons/md"
-import { FaHome, FaTwitter } from "react-icons/fa"
+import { FaHome, FaInbox, FaTwitter } from "react-icons/fa"
 import Resourcelinks from "./resourcelinks"
-import BriefLinks from "./brieflinks"
 import { Link } from "gatsby"
 
 function Mainmenu () {
@@ -19,14 +17,12 @@ function Mainmenu () {
         </div>
         </Link>
 
-        <Link to="/blog/" className="no-underline">
+        <Link to="/inbox" className="no-underline">
         <div className="mb-11 flex flex-row space-x-2">
-        <div className="p-1 bg-gradient-to-r from-purple-400 to-purple-600 text-white rounded-md shadow-lg"><p className="m-0 text-white"><MdChatBubble /></p></div>
-        <div><p className="font-semibold dark:text-white m-0 hover:text-blue-500 dark:hover:text-blue-400">Blog</p></div>
+        <div className="p-1 bg-gradient-to-r from-pink-400 to-pink-600 text-white rounded-md shadow-lg"><p className="m-0 text-white"><FaInbox /></p></div>
+        <div><p className="font-semibold dark:text-white m-0 hover:text-blue-500 dark:hover:text-blue-400">Brief Inbox</p></div>
         </div>
         </Link>
-
-        <div className="mb-8"><BriefLinks  /></div>
 
         <div className="mb-8"><Resourcelinks /></div>
 

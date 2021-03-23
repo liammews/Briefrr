@@ -5,7 +5,7 @@ const Articles = ({ articles }) => {
   const Articles = articles.slice();
 
   return (
-    <div>
+    <div className="grid grid-cols-1 gap-8 lg:gap-12 lg:grid-cols-2 mb-12 ">
           {Articles.map((article, i) => {
             return (
               <Card

@@ -6,7 +6,7 @@ const appCard = ({ article }) => {
 
     <div className="flex w-full">
 
-        <div className="z-20 lg:h-64 mb-2 w-full flex flex-col justify-between bg-white dark:bg-darkgray-900 shadow-md hover:shadow-xl rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
+        <div className="z-20 lg:h-64 mb-2 w-full flex flex-col justify-between bg-white dark:bg-darkgray-900 shadow-sm hover:shadow-md rounded-md p-4 transition duration-500 ease-in-out transform hover:-translate-y-1">
 
         <div className={`${article.node.price} rounded-full px-2 py-1 absolute z-30 right-4 top-4`}>
                 <p className={`${article.node.price} capitalize m-0 text-sm`}>{article.node.price}</p>

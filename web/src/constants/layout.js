@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
           <Header />
           <div className="grid grid-cols-12 h-screen">
 
-            <aside className="overflow-y-auto h-screen w-2/12 hidden lg:fixed lg:block col-span-2 bg-gray-50 dark:bg-darkgray-900 border-r border-gray-200 dark:border-darkgray-700 pl-10 pr-2 pt-24 z-10">
+            <aside className="overflow-y-auto h-screen w-2/12 hidden lg:fixed lg:block col-span-2 bg-white dark:bg-darkgray-900 border-r border-gray-200 dark:border-darkgray-700 pl-10 pr-2 pt-24 z-10">
               <Mainmenu  />
             </aside>
 

@@ -6,6 +6,8 @@ import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import CreatedBy from "../components/homepage/createdby";
 import SEO from "../components/seo";
+import Howdoesitwork from "../components/homepage/howdoesitwork"
+import Pricetable from "../components/homepage/pricetable"
 
 // markup
 const IndexPage = () => {
@@ -18,6 +20,10 @@ const IndexPage = () => {
       
     <Hero></Hero>
 
+    <Howdoesitwork />
+
+    <Pricetable />
+
     <CreatedBy />
 
     <div className="my-20 lg:my-36 flex flex-col items-center">
@@ -25,7 +31,7 @@ const IndexPage = () => {
 
       <div>
       <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center my-0">Discover Resources</h2>
-      <h3 className="text-gray-400 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">Browse our library of over 200 resources</h3>
+      <h3 className="text-gray-500 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">Browse our library of over 200 resources</h3>
       </div>
 
       <div>
