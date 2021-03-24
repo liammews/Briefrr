@@ -10,6 +10,9 @@ const CreatedBy = () => {
 
 <div className="mt-36 mb-44">
 
+<div className="flex flex-col items-center">
+<h2 className="text-4xl text-center mb-16"><b className="text-blue-500">Learning tool</b> for beginners <br />Practice tool for <b className="text-blue-500">professionals</b></h2>
+</div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 

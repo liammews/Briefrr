@@ -50,6 +50,21 @@ export default {
         title: 'Link',
         type: 'text',
       },
+      {
+        name: 'buttontext',
+        title: 'Button Text',
+        type: 'text',
+      },
+      {
+        name: 'packnum',
+        title: 'Pack Number',
+        type: 'text',
+      },
+      {
+        name: 'buttoncolour',
+        title: 'Button Colour',
+        type: 'text',
+      },
     {
       title: 'overview', 
       name: 'Overview',
@@ -66,13 +81,8 @@ export default {
       type: 'PortableText', 
     },
     {
-      title: 'objectives', 
-      name: 'Objectives',
-      type: 'PortableText', 
-    },
-    {
-      title: 'delivery', 
-      name: 'Delivery',
+      title: 'lookandfeel', 
+      name: 'Look_and_Feel',
       type: 'PortableText', 
     },
   ],

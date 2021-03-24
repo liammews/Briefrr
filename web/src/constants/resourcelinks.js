@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { FiLayers } from "react-icons/fi"
+import { FaLayerGroup } from "react-icons/fa"
 
 const data = [
   {
@@ -66,7 +66,7 @@ export default ({ styleClass }) => {
     <div>
     <button onClick={() => toggleExpansion(!isExpanded)} className="focus:outline-none">
     <div className="flex flex-row space-x-2 items-center mb-4">
-        <div className="p-1 bg-gradient-to-r from-yellow-400 to-yellow-600 text-white rounded-md shadow-lg"><p className="m-0 text-white"><FiLayers /></p></div>
+        <div className="transform -rotate-12 p-1 bg-yellow-500 text-white rounded-md shadow-lg"><p className="m-0 text-white transform rotate-12"><FaLayerGroup /></p></div>
         <div><p className="font-semibold dark:text-white m-0">Resources</p></div>
         </div>
     </button>

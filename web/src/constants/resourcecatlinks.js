@@ -48,7 +48,7 @@ const data = [
 const tempLinks = data.map(link => {
 
   return (
-    <li className="mt-4 pl-0 mr-4" key={link.id}>
+    <li className="mt-8 pl-0 mr-4" key={link.id}>
       <Link className="no-underline" to={link.url}>
       <div className={`${link.text} rounded-full px-3 py-1 shadow-sm transition duration-500 ease-in-out transform hover:scale-105`}>
                 <p className={`${link.text} capitalize m-0`}>{link.text}</p>

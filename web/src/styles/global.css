@@ -81,7 +81,7 @@
     }
 
     a{
-      @apply underline;
+      @apply border-b border-dotted border-blue-400;
     }
 
     ul {
@@ -132,4 +132,26 @@
   .colour {
     @apply bg-teal-200 text-teal-700
   }
+
+  .no-underline {
+    @apply border-b-0
+  }
+
+  .blue {
+    @apply bg-blue-500 hover:bg-blue-600
+  }
+
+  .pink {
+    @apply bg-pink-500 hover:bg-pink-600
+  }
+
+  .store {
+    @apply bg-teal-200 text-teal-700
+  }
+
+  .premium {
+    @apply bg-teal-200 text-teal-700
+  }
+
+
 }

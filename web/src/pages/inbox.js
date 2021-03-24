@@ -12,11 +12,14 @@ export const query = graphql`
   allSanityBriefs(sort: {order: ASC, fields: publishedAt}) {
     edges {
       node {
-        _rawOverview
-        _rawObjectives
-        _rawDelivery
-        _rawClientBackground
         _rawAudience
+        _rawClientBackground
+        _rawLookAndFeel
+        _rawOverview
+        _rawSlug
+        buttoncolour
+        buttontext
+        packnum
         avatar {
           asset {
             fluid {

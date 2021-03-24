@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-row z-40">
-            <Link to="/inbox">
+            <Link to="/inbox" className="no-underline">
             <button className="font-manrope mb-4 lg:mt-0 mt-4 px-6 py-4 bg-blue-500 text-white font-bold rounded-md shadow-md transition duration-500 ease-in-out transform hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 Get started!
             </button>

@@ -4,7 +4,7 @@ import Layout from "../constants/layout"
 import Hero from "../components/resources/iconshero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
-import ViewAll from "../components/resources/viewall";
+import ResourceCatLinks from "../constants/resourcecatlinks"
 import SEO from "../components/seo";
 
 
@@ -17,7 +17,7 @@ const ResourcePage = () => {
       <Hero />
       <SEO title={'Icons'} />
       <AppsComponent articles={data.allSanityApps.edges} />
-      <ViewAll />
+      <ResourceCatLinks  />
       <div className="w-full mt-8 mb-8">
         <SignUp  />
       </div>

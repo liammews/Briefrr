@@ -2,14 +2,18 @@ import React from "react";
 
 const Signup = () => {
   return (
-            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md bg-blue-100 bg-opacity-50 dark:bg-darkgray-900 p-6 lg:px-10 lg:py-10 mb-12">
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-end w-full rounded-md shadow-sm bg-white bg-opacity-50 dark:bg-darkgray-900 p-6 lg:px-10 lg:py-10 mb-12 overflow-hidden relative">
                 
-                <div className="w-full mb-8 lg:mb-0">
+                <div className="bg-blue-50 h-xl w-xl rounded-full absolute -bottom-80 -left-60 md:-left-24 z-0">
+                    <p></p>
+                </div>
+                
+                <div className="w-full mb-8 lg:mb-0 z-10">
                     <h2 className="text-blue-600 dark:text-green-200 text-3xl  m-0 font-bold">Join the community!</h2>
-                    <h3 className="text-blue-400 dark:text-white text-base mt-2 m-0 font-normal">Sign up to our email list and stay up to date!</h3>
+                    <h3 className="text-black dark:text-white text-base mt-2 m-0 font-normal">Sign up to our email list and stay up to date!</h3>
                 </div>
 
-                <div className="w-full">
+                <div className="w-full z-10">
                 <form name="signup" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/signup-thankyou">
 
                 <input type="hidden" name="form-name" value="signup" />

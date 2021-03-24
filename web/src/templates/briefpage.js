@@ -25,10 +25,12 @@ query BlogPostTemplateQuery($id: String!) {
       title
       _rawAudience
       _rawClientBackground
-      _rawDelivery
-      _rawObjectives
+      _rawLookAndFeel
       _rawOverview
       _rawSlug
+      buttoncolour
+      buttontext
+      packnum
             }
           }
         `

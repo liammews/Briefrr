@@ -8,6 +8,7 @@ import CreatedBy from "../components/homepage/createdby";
 import SEO from "../components/seo";
 import Howdoesitwork from "../components/homepage/howdoesitwork"
 import Pricetable from "../components/homepage/pricetable"
+import Testimonial from "../components/homepage/testimonials";
 
 // markup
 const IndexPage = () => {
@@ -18,7 +19,7 @@ const IndexPage = () => {
 
     <SEO title={'Briefrr'} description={'The perfect practice ground for creators.'} />
       
-    <Hero></Hero>
+    <Hero  />
 
     <Howdoesitwork />
 
@@ -26,12 +27,14 @@ const IndexPage = () => {
 
     <CreatedBy />
 
+    <Testimonial />
+
     <div className="my-20 lg:my-36 flex flex-col items-center">
 
 
       <div>
       <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center my-0">Discover Resources</h2>
-      <h3 className="text-gray-500 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">Browse our library of over 200 resources</h3>
+      <h3 className="text-gray-500 dark:text-white text-lg lg:text-2xl text-center mt-2 mb-8 lg:mb-12 font-normal">Browse our library of over <b className="font-bold">200</b> resources</h3>
       </div>
 
       <div>
@@ -58,7 +61,6 @@ const IndexPage = () => {
 export const query = graphql`
 {
   allSanityApps(limit: 3) {
-    totalCount
         edges {
           node {
             price
@@ -75,6 +77,7 @@ export const query = graphql`
             link
           }
         }
+        totalCount
       }
     }    
 `

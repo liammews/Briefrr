@@ -7,7 +7,7 @@ const CreatedBy = () => {
     <div className="mt-36 flex flex-col items-center max-w-2xl mx-auto">
 
       <div className="flex flex-row space-x-4 mb-4">
-      <div><img className="h-28 w-28 rounded-full border-white border-2 shadow-sm" src="https://pbs.twimg.com/profile_images/1374152003396452352/vMw5JgtS_400x400.jpg" alt="mock avatar" /></div>
+      <div><img className="h-28 w-28 rounded-brl border-white border-2 shadow-sm" src="https://pbs.twimg.com/profile_images/1374152003396452352/vMw5JgtS_400x400.jpg" alt="mock avatar" /></div>
       </div>
 
       <div>
