@@ -6,7 +6,7 @@ const CreatedBy = () => {
 
   return (
 
-<div className="lg:px-48">
+<div className="max-w-6xl mx-auto">
 
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

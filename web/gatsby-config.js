@@ -31,6 +31,12 @@ module.exports = {
         theme_color_in_head: false,
       },
   },
+  {
+    resolve: 'gatsby-plugin-snipcart',
+    options: {
+      apiKey: 'YzdlOWM1MWEtZDYxNC00NjgxLTkyMjktMDUyNmRkMDdjNWQwNjM3NTE0MjAyMDkzNzU3NjA1'
+    }
+  },
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",

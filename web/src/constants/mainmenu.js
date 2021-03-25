@@ -17,6 +17,13 @@ function Mainmenu () {
         </div>
         </Link>
 
+        <Link to="/premium" className="no-underline">
+        <div className="mb-11 flex flex-row space-x-2">
+        <div className="transform -rotate-12 p-1 bg-orange-500 text-white rounded-md shadow-lg"><p className="m-0 text-white transform rotate-12"><FaInbox /></p></div>
+        <div><p className="font-semibold dark:text-white m-0 hover:text-blue-500 dark:hover:text-blue-400">Premium</p></div>
+        </div>
+        </Link>
+
         <Link to="/inbox" className="no-underline">
         <div className="mb-11 flex flex-row space-x-2">
         <div className="transform -rotate-12 p-1 bg-pink-500 text-white rounded-md shadow-lg"><p className="m-0 text-white transform rotate-12"><FaInbox /></p></div>

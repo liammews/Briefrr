@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import Mainmenu from "./mainmenu"
 import { Link } from "gatsby"
-import SearchBar from "./search"
 
 function Header ({ siteTitle }) {
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../constants/layout"
-import Hero from "../components/resources/inspirationhero"
+import Hero from "../constants/pagehero"
 import AppsComponent from "../components/apps/apps";
 import SignUp from "../components/forms/signup";
 import ResourceCatLinks from "../constants/resourcecatlinks"
@@ -14,7 +14,7 @@ const ResourcePage = () => {
 
   return (
     <Layout>
-      <Hero />
+      <Hero title="Inspiration" linklabel="Back to Resources" link="resources" />
       <SEO title={'Inspiration'} />
       <AppsComponent articles={data.allSanityApps.edges} />
       <div className="w-full mt-8 mb-8">

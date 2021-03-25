@@ -19,7 +19,7 @@ const Briefcard = ({ article }) => {
           </div>
           <div>
             <p className="text-sm text-gray-500 font-medium m-0 mb-1">{article.node.from}</p>
-            <p className="text-md lg:text-xl font-manrope text-black font-bold m-0">{article.node.title}</p>
+            <p className="text-md lg:text-xl font-manrope text-black font-bold m-0 pr-8">{article.node.title}</p>
           </div>
         </div>
 
