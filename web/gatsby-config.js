@@ -35,7 +35,7 @@ module.exports = {
     resolve: 'gatsby-plugin-snipcart',
     options: {
       apiKey: 'YzdlOWM1MWEtZDYxNC00NjgxLTkyMjktMDUyNmRkMDdjNWQwNjM3NTE0MjAyMDkzNzU3NjA',
-      autopop: 'true'
+      autopop: true,
     }
   },
     "gatsby-plugin-sharp",

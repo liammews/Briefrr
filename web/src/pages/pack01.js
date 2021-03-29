@@ -24,14 +24,13 @@ function BlogPost () {
             <p className="mt-0 mb-2 text-xl max-w-3xl text-center text-teal-800">Pack 01 - Idenity design</p>
             
             <div className="mt-8 flex flex-row justify-center">
-                    <button className="no-underline flex-shrink-0 bg-teal-700 rounded-md px-6 py-3 text-white font-semibold transition duration-500 ease-in-out transform hover:scale-105 snipcart-add-item"
+                    <button className="snipcart-add-item no-underline flex-shrink-0 bg-teal-700 rounded-md px-6 py-3 text-white font-semibold transition duration-500 ease-in-out transform hover:scale-105"
                     data-item-id="bp01"
                     data-item-price="9.99"
                     data-item-url="/pack01"
-                    data-item-description="Identity Creator Pack - 01"
-                    data-item-image=""
-                    data-item-name="Identity Creator Pack"
-                    data-item-file-guid="5506f0d4-0199-41bd-b632-0fd7f4567b7f">
+                    data-item-description="Identity Creator Pack"
+                    data-item-image="https://cdn.sanity.io/images/j2di4tpb/production/ad68547a746dbe455d989625ccfd5b24f6c39b16-1280x720.png"
+                    data-item-name="Identity Creator Pack">
                     Buy - £9.99
                     </button>
             </div>
