@@ -3,14 +3,16 @@ import React from "react";
 
 const contactCard = () => {
   return (
-            <div className="flex flex-col items-center w-full rounded-md bg-white dark:bg-darkgray-900 border-grey-200 dark:border-gray-600 shadow-md mb-4 p-6 lg:px-20 lg:py-20">
+    <div className="flex flex-col items-center justify-center w-full rounded-md bg-white dark:bg-darkgray-900 border-gray-300 dark:border-gray-600 shadow-md  mb-12 p-6 py-20">
                 
-                <div className="lg:w-3/5 w-full">
+                <div className="max-w-2xl mx-auto">
+
+                <div className="w-full">
                     <h2 className="text-black dark:text-white text-4xl  m-0 font-bold">Submit your work!</h2>
                     <h3 className="text-gray-500 dark:text-gray-100 text-sm lg:text-xl mt-2 mb-8 font-normal">Use the form below to submit your work, we will be featuring our favourite submissions on our student page and socials.</h3>
                 </div>
 
-                <div className="lg:w-3/5 w-full">
+                <div className="w-full">
                 <form name="submit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/submit-thankyou">
 
                 <input type="hidden" name="form-name" value="submit" />
@@ -20,9 +22,9 @@ const contactCard = () => {
                     <input class="mt-2 w-2/3 h-10 px-3 text-base  text-black placeholder-gray-300 border rounded-lg focus:shadow-outline" type="text" placeholder="Peter Casso" name="name"/>
                 </div>
 
-                <div class="text-gray-700 dark:text-white mb-8">
+                <div class="text-gray-700 dark:text-white mb-8 max-w-xl">
                     <label class="block mb-1" for="forms-labelOverInputCode">Email address</label>
-                    <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-lg focus:shadow-outline" type="text" placeholder="p.casso@outlook.com" name="email"/>
+                    <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-lg focus:shadow-outline" type="email" placeholder="p.casso@outlook.com" name="email"/>
                 </div>
 
                 <div class="text-gray-700 dark:text-white mb-8">
@@ -50,6 +52,7 @@ const contactCard = () => {
 
 
                 </form>
+                </div>
                 </div>
     
             </div>

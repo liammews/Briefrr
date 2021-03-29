@@ -34,11 +34,16 @@ const data = [
   },
   {
     id: 8,
+    text: "mockups",
+    url: "/mockups",
+  },
+  {
+    id: 9,
     text: "software",
     url: "/software",
   },
   {
-    id: 9,
+    id: 10,
     text: "type",
     url: "/type",
   },

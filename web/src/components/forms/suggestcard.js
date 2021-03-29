@@ -2,14 +2,15 @@ import React from "react";
 
 const contactCard = () => {
   return (
-            <div className="flex flex-col items-center w-full rounded-md bg-white dark:bg-darkgray-900 border-gray-300 dark:border-gray-600 shadow-md mb-4 p-6 lg:px-20 lg:py-20">
+    <div className="flex flex-col items-center justify-center w-full rounded-md bg-white dark:bg-darkgray-900 border-gray-300 dark:border-gray-600 shadow-md  mb-12 p-6 py-20">
                 
-                <div className="lg:w-3/5 w-full">
+                <div className="max-w-7xl mx-auto">
+                <div className="mx-w-2xl">
                     <h2 className="text-black dark:text-white text-4xl  m-0 font-bold">Suggest</h2>
                     <h3 className="text-gray-400 text-xl mt-2 mb-8 font-normal">We love hearing about new resources and apps, let us know your favourites.</h3>
                 </div>
 
-                <div className="lg:w-3/5 w-full">
+                <div className="w-full">
                 <form name="suggest" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/suggest-thankyou">
 
                 <input type="hidden" name="form-name" value="suggest" />
@@ -41,6 +42,8 @@ const contactCard = () => {
 
 
                 </form>
+                </div>
+
                 </div>
     
             </div>

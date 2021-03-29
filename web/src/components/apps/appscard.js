@@ -14,7 +14,7 @@ const appCard = ({ article }) => {
 
             <div className="flex flex-col flex-wrap space-y-4 mb-6">
             <div className="h-16 w-16 flex-shrink-0 shadow-md rounded-xl bg-white">
-            <img className="rounded-lg" src={`${article.node.icon.asset.fluid.src}`} alt={`${article.node.name} logo`}  />
+            <img className="rounded-xl" src={`${article.node.icon.asset.fluid.src}`} alt={`${article.node.name} logo`}  />
             </div>
 
             <div className="flex flex-col mb-4">

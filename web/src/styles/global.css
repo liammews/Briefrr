@@ -133,6 +133,10 @@
     @apply bg-teal-200 text-teal-700
   }
 
+  .mockups {
+    @apply bg-lime-200 text-lime-700
+  }
+
   .no-underline {
     @apply border-b-0
   }
