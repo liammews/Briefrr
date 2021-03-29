@@ -24,10 +24,10 @@ function BlogPost () {
             <p className="mt-0 mb-2 text-xl max-w-3xl text-center text-teal-800">Pack 01 - Idenity design</p>
             
             <div className="mt-8 flex flex-row justify-center">
-                    <button className="no-underline flex-shrink-0 bg-teal-700 rounded-md px-6 py-3 text-white font-semibold transition duration-500 ease-in-out transform hover:scale-105"
+                    <button className="no-underline flex-shrink-0 bg-teal-700 rounded-md px-6 py-3 text-white font-semibold transition duration-500 ease-in-out transform hover:scale-105 snipcart-add-item"
                     data-item-id="bp01"
                     data-item-price="9.99"
-                    data-item-url="briefrr.co/pack01"
+                    data-item-url="/pack01"
                     data-item-description="Identity Creator Pack - 01"
                     data-item-image=""
                     data-item-name="Identity Creator Pack"
