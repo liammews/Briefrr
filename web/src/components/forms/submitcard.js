@@ -7,7 +7,7 @@ const contactCard = () => {
                 
                 <div className="lg:w-3/5 w-full">
                     <h2 className="text-black dark:text-white text-4xl  m-0 font-bold">Submit your work!</h2>
-                    <h3 className="text-gray-500 dark:text-gray-100 text-xl mt-2 mb-8 font-normal">You've finished? That's great! Use our form below to submit your work. We plan on sharing our favourite submissions across Briefrr and on our socials.</h3>
+                    <h3 className="text-gray-500 dark:text-gray-100 text-sm lg:text-xl mt-2 mb-8 font-normal">Use the form below to submit your work, we will be featuring our favourite submissions on our student page and socials.</h3>
                 </div>
 
                 <div className="lg:w-3/5 w-full">

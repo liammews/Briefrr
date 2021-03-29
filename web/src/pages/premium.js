@@ -14,7 +14,7 @@ const PremiumPage = () => {
   return (
     <Layout>
       <Hero />
-      <SEO title={'Store'} />
+      <SEO title={'Premium Briefs'} />
       <StoreComponent articles={data.allSanityProducts.edges} />
       <div className="w-full mt-8 mb-8">
         <SignUp  />

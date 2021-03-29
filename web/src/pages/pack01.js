@@ -8,12 +8,15 @@ import CreatedBy from "../components/homepage/createdby"
 import Testimonials from "../components/homepage/testimonials"
 import Faqs from "../components/premium/faqs"
 import Briefpreview from '../components/premium/briefpreview'
+import SEO from "../components/seo";
 
 function BlogPost () {
 
   return (
 
     <Layout>
+
+    <SEO title={'Identity Creator Pack'} />
 
         <div>
 
@@ -39,7 +42,7 @@ function BlogPost () {
             </div>
 
             <div className="absolute left-4 top-0">
-            <Link to="/inbox" className="no-underline">
+            <Link to="/premium" className="no-underline">
             <button className="text-xs font-manrope mb-4 mt-4 px-2 py-2 bg-white text-black font-bold rounded-md transition duration-500 ease-in-out transform hover:-translate-y-1">
                     ← Browse other packs
             </button>
