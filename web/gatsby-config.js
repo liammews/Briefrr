@@ -32,9 +32,9 @@ module.exports = {
       },
   },
   {
-    resolve: 'gatsby-plugin-snipcart',
+    resolve: 'gatsby-plugin-snipcartv3',
     options: {
-      apiKey: 'YzdlOWM1MWEtZDYxNC00NjgxLTkyMjktMDUyNmRkMDdjNWQwNjM3NTE0MjAyMDkzNzU3NjA',
+      apiKey: 'YzdlOWM1MWEtZDYxNC00NjgxLTkyMjktMDUyNmRkMDdjNWQwNjM3NTE0MjAyMDkzNzU3NjA1',
       autopop: true,
     }
   },
