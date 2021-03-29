@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaArrowCircleUp, FaBars, FaHome, FaInbox, FaLayerGroup, FaTimes } from "react-icons/fa"
 import Mainmenu from "./mainmenu"
 import { Link } from "gatsby"
 
@@ -9,10 +9,52 @@ function Header ({ siteTitle }) {
 
     return (
 
-        <div>
+        <div className=''>
 
-        <header className="w-full z-50 fixed h-16 bg-white dark:bg-darkgray-900 px-4 lg:px-10 flex flex-row items-center border-b dark:border-darkgray-700 border-gray-200 justify-between">
+        <header className="w-full bottom-0 m-0 md:top-0 z-50 fixed h-16 bg-white dark:bg-darkgray-900 px-4 lg:px-10 flex flex-row items-center border-t md:border-b dark:border-darkgray-700 border-gray-200 justify-between">
+
+            <div className="flex flex-row md:hidden justify-evenly space-x-8 px-4 w-full">
             
+            <div>
+                <Link to="/" className="no-underline">
+                <button className="text-2xl text-center flex flex-col items-center text-blue-500">
+                <FaHome /><p className="text-gray-500 m-0 text-xs text-center mt-1">Home</p>
+                </button>
+                </Link>
+            </div>
+
+            <div>
+                <Link to="/inbox" className="no-underline">
+                <button className="text-2xl text-center flex flex-col items-center text-pink-500">
+                <FaInbox /><p className="text-gray-500 m-0 text-xs text-center mt-1">Briefs</p>
+                </button>
+                </Link>
+            </div>
+
+            <div>
+                <Link to="/resources" className="no-underline">
+                <button className="text-2xl text-center flex flex-col items-center text-yellow-500">
+                <FaLayerGroup /><p className="text-gray-500 m-0 text-xs text-center mt-1">Resources</p>
+                </button>
+                </Link>
+            </div>
+
+
+            <div>
+                <Link to="/submit" className="no-underline">
+                <button className="text-2xl text-center flex flex-col items-center text-green-500">
+                <FaArrowCircleUp /><p className="text-gray-500 m-0 text-xs text-center mt-1">Submit</p>
+                </button>
+                </Link>
+            </div>
+
+
+            </div>
+            
+            
+            <div className="hidden md:flex flex-row justify-between w-full">
+            
+            <div>
             <Link to="/" className="no-underline">
             <div className="-ml-2 flex flex-row space-x-4 items-center">
             <div className="pl-3 w-9 h-9 transition duration-500 ease-in-out transform hover:scale-105">
@@ -22,16 +64,16 @@ function Header ({ siteTitle }) {
             <path d="M26.9165 49.7251C18.4289 51.9993 13.3489 60.7057 15.6258 69.2035L39.2144 157.237C41.4914 165.735 50.244 170.735 58.7316 168.461L116.23 153.054C149.144 144.235 168.746 110.515 159.955 77.7076C151.165 44.9 117.329 25.4991 84.4146 34.3185L26.9165 49.7251ZM67.312 200.483C58.8243 202.757 53.7443 211.463 56.0213 219.961L79.6098 307.995C81.8868 316.493 90.6394 321.493 99.1271 319.218L245.084 280.109C253.571 277.835 258.651 269.129 256.374 260.631L247.529 227.618C237.109 188.733 197.003 165.732 157.982 176.188L67.312 200.483Z" stroke="black" stroke-width="9"/>
             </svg>
             </div>
-            <div><p className="font-bold font-manrope text-xl dark:text-white">Briefrr</p></div>
             </div>
             </Link>
+            </div>
 
             <div className="flex flex-row space-x-10 items-center">
 
                 <div className="hidden lg:inline">
-                <Link to="/submit" className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
+                <Link to="/inbox" className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
                     <button>
-                        Submit your work!
+                        Get started!
                     </button>
                 </Link>
                 </div>
@@ -45,6 +87,7 @@ function Header ({ siteTitle }) {
                     </button>
                 </div>
 
+            </div>
             </div>
             
 
@@ -62,6 +105,7 @@ function Header ({ siteTitle }) {
 
 </div>
 </div>
+
 
 </div>
 

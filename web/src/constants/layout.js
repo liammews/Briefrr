@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
               <Mainmenu  />
             </aside>
 
-            <main className="max-h-full col-span-12 bg-gray-50 dark:bg-darkgray-800 pt-24 flex flex-row">
+            <main className="max-h-full col-span-12 bg-gray-50 dark:bg-darkgray-800 pt-8 pb-24 lg:pb-0 lg:pt-24 flex flex-row">
               <div className="w-2/12 hidden lg:block"></div>
               <div className="lg:w-10/12 w-full px-4 lg:px-10">{children}</div>
             </main>

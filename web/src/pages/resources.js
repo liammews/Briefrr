@@ -14,7 +14,7 @@ const ResourcePage = () => {
 
   return (
     <Layout>
-      <Hero title="Resources" linklabel="Back to Resources" link="resources" />
+      <Hero title="Resources" linklabel="Back to Home" link="/" />
       <SEO title={'Resources'} />
       <Resourcecatlinks  />
       <AppsComponent articles={data.allSanityApps.edges} />

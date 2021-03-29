@@ -7,7 +7,7 @@ const Accordion = ( { question, answer } ) => {
   return (
 
     <div className="flex flex-col items-center mb-4">
-    <div className="flex flex-col space-y-4 justify-center w-xl bg-white shadow-sm rounded-md px-8 py-6">
+    <div className="flex flex-col space-y-4 justify-center w-full max-w-4xl bg-white shadow-sm rounded-md px-8 py-6">
 
                 <div className="flex flex-row items-center">
                     <div>
@@ -22,11 +22,12 @@ const Accordion = ( { question, answer } ) => {
                     </button>
                     </div>
 
-                    <div><p className="ml-4 m-0 text-black font-manrope font-semibold">{question}</p></div>
+
+                    <div><button onClick={() => toggleExpansion(!isExpanded)} className="ml-4 m-0 text-black font-manrope font-semibold text-left">{question}</button></div>
                 </div>
 
-                <div className={`${ isExpanded ? `inline` : `hidden` }`}>
-                    <p className="my-0 pl-8 text-grey-500">{answer}</p>
+                <div className={`${ isExpanded ? `inline` : `hidden` } flex flex-row`}>
+                    <p className="my-0 pl-8 text-grey-500 text-left">{answer}</p>
                 </div>
         
     </div>

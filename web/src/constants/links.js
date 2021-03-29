@@ -31,7 +31,7 @@ export default ({ styleClass }) => {
     <button onClick={() => toggleExpansion(!isExpanded)} className="focus:outline-none">
     <div className="flex flex-row space-x-2 items-center mb-4">
         <div className="transform -rotate-12 p-1 bg-green-500 text-white rounded-md shadow-lg"><p className="m-0 text-white transform rotate-12"><FaEnvelope /></p></div>
-        <div><p className="font-semibold dark:text-white m-0">Let's chat</p></div>
+        <div><p className="font-semibold dark:text-white hover:text-blue-500 m-0">Let's chat</p></div>
         </div>
     </button>
     <ul className={`${ isExpanded ? `flex flex-col` : `hidden` } ${styleClass ? styleClass : ""} pl-0 list-none my-0 space-y-2`}>

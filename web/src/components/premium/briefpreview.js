@@ -3,7 +3,7 @@ import React from "react"
 const Briefpreview = ({ title, name, imageurl, category }) => {
     return(
 <div>
-<div className="flex flex-col w-full h-52 lg:h-56 justify-between bg-white dark:bg-darkgray-900 rounded-md shadow-sm p-4 lg:p-10 hover:shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1">
+<div className="flex flex-col w-full h-48 lg:h-56 justify-between bg-white dark:bg-darkgray-900 rounded-md shadow-sm p-4 lg:p-10 hover:shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1">
 
     <div className="flex flex-row space-x-8">
     <div className="flex-shrink-0">
