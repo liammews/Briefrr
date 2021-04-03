@@ -19,7 +19,7 @@ const Signup = () => {
                 <input type="hidden" name="form-name" value="signup" />
 
                 <div class="text-gray-700 dark:text-gray-300 flex flex-row pb-1">
-                    <input class="w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-md rounded-r-none rounded-br-none focus:shadow-outline" type="text" placeholder="Email address" name="email"/>
+                    <input class="mr-2 w-full h-10 px-3 text-base text-black placeholder-gray-300 border rounded-md rounded-r-none rounded-br-none focus:shadow-outline" type="text" placeholder="Email address" name="email"/>
                     <button type="submit" className="bg-blue-500 hover:bg-blue-600 rounded-md rounded-l-none rounded-bl-none px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
                 Subscribe
                 </button>

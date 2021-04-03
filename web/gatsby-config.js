@@ -16,6 +16,8 @@ module.exports = {
       options: {
         projectId: "j2di4tpb",
         dataset: "production",
+        overlayDrafts: true,
+        watchMode: true,
       },
     },
     {

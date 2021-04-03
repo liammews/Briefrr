@@ -67,7 +67,7 @@ function BlogPost (props) {
                 <div><p className="text-5xl my-4 mr-0 -ml-8 text-green-200 text-opacity-70"><FaSearch  /></p></div>
         </div>
             <p className="text-lg font-bold font-manrope my-0 text-center mb-2">Step 1 - Research</p>
-            <p className="my-0 text-center">Look into what others in this industry are doing and be aware of your clients background and audience. Need some inspiration? have a look around our <Link to="/inbox" className="border-b-2 border-dotted border-fuchsia-300 no-underline">inspiration resources.</Link></p>
+            <p className="my-0 text-center">Look into what others in this industry are doing and be aware of your clients background and audience. Need some inspiration? have a look around our <Link to="/inspiration" className="border-b-2 border-dotted border-fuchsia-300 no-underline">inspiration resources.</Link></p>
         </div>
 
 
@@ -98,7 +98,7 @@ function BlogPost (props) {
                 <div><p className="text-5xl my-4 mr-0 -ml-8 text-yellow-200 text-opacity-70"><FaArrowCircleUp  /></p></div>
         </div>
             <p className="text-lg font-bold font-manrope my-0 text-center mb-2">Step 4 - Deliver</p>
-            <p className="my-0 text-center">All done? Great! Designs always look better in mock-ups so take a look around our <Link to="/mock-ups" className="border-b-2 border-dotted border-blue-300 no-underline">mock-up resources</Link>. Once you're happy <Link to="/sbumit" className="border-b-2 border-dotted border-green-300 no-underline">submit your work!</Link> Don't forget to also share your work on social media, its a great way to network and get peer feedback. Tag us for extra cred!</p>
+            <p className="my-0 text-center">All done? Great! Designs always look better in mock-ups so take a look around our <Link to="/mockups" className="border-b-2 border-dotted border-blue-300 no-underline">mock-up resources</Link>. Once you're happy <Link to="/submit" className="border-b-2 border-dotted border-green-300 no-underline">submit your work!</Link> Don't forget to also share your work on social media, its a great way to network and get peer feedback. Tag us for extra cred!</p>
         </div>
 
 

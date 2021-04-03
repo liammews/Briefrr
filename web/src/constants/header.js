@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FaArrowCircleUp, FaBars, FaHome, FaInbox, FaLayerGroup, FaTimes } from "react-icons/fa"
+import { FaArrowCircleUp, FaBars, FaBell, FaHome, FaInbox, FaLayerGroup, FaRegBell, FaTimes } from "react-icons/fa"
 import Mainmenu from "./mainmenu"
 import { Link } from "gatsby"
 
@@ -70,12 +70,25 @@ function Header ({ siteTitle }) {
 
             <div className="flex flex-row space-x-10 items-center">
 
-                <div className="hidden lg:inline">
+                <div className="hidden lg:flex flex-row space-x-8 items-center">
+
                 <Link to="/inbox" className="flex-shrink-0 bg-blue-500 hover:bg-blue-600 rounded-md px-4 py-2 text-white font-semibold text-sm transition duration-500 ease-in-out transform hover:scale-105">
                     <button>
                         Get started!
                     </button>
                 </Link>
+
+                <div className="relative">
+                    <div className="absolute h-3 w-3 bg-red-500 rounded-full -right-1 -top-1"  />
+                    <div>
+                        <Link to="/updates" className="no-underline flex flex-col justify-center">
+                        <button className="text-xl m-0 text-gray-600">
+                            <FaRegBell  />
+                        </button>
+                        </Link>
+                    </div>
+                </div>
+
                 </div>
 
                 <div className="flex justify-center lg:hidden">

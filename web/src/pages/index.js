@@ -8,7 +8,6 @@ import CreatedBy from "../components/homepage/createdby";
 import SEO from "../components/seo";
 import Howdoesitwork from "../components/homepage/howdoesitwork"
 import Pricetable from "../components/homepage/pricetable"
-import Testimonial from "../components/homepage/testimonials";
 
 // markup
 const IndexPage = () => {
@@ -26,8 +25,6 @@ const IndexPage = () => {
     <Pricetable />
 
     <CreatedBy />
-
-    <Testimonial />
 
     <div className="my-20 lg:my-36 flex flex-col items-center">
 

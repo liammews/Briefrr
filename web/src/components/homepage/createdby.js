@@ -10,10 +10,10 @@ const CreatedBy = () => {
       <div><img className="h-28 w-28 rounded-brl border-white border-2 shadow-sm" src="https://pbs.twimg.com/profile_images/1374152003396452352/vMw5JgtS_400x400.jpg" alt="mock avatar" /></div>
       </div>
 
-      <div>
+      <div className="flex flex-col items-center">
       <h2 className="text-blue-500 dark:text-green-200 text-3xl lg:text-4xl text-center mt-4 mb-0">Created by creators,<br></br> for creators.</h2>
       <p className="text-xl text-gray-600 dark:text-white text-center">"Breifrr was create by me, for the 16-year-old me. Fresh from completing my A-Levels with no degree and seeking a job in Graphic Design. I wanted to give new designers the tools to kickstart their career and professional designers a fun tool to get creative outside of work."</p>
-      <div><a href="https://liammews.com" className="no-underline"><p className="text-3xl text-gray-600 dark:text-white hover:text-blue-500 text-center font-bold font-caveat">- Liam</p></a></div>
+      <div><a href="https://liammews.com" className="no-underline w-max"><p className="w-max text-3xl text-gray-600 dark:text-white hover:text-blue-500 text-center font-bold font-caveat">- Liam</p></a></div>
       </div>
     </div>
 

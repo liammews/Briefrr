@@ -70,7 +70,7 @@ const CreatedBy = () => {
 
                 <Link to="/inbox" className="no-underline">
                 <button className="z-10 font-manrope mb-4 mt-10 px-4 py-2 text-sm bg-pink-500 text-white font-bold rounded-md shadow-md transition duration-500 ease-in-out transform hover:shadow-lg hover:-translate-y-1 hover:scale-105">
-                    Get started!
+                    Coming in v2!
                 </button>
                 </Link>
 

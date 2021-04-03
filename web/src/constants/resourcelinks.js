@@ -70,12 +70,12 @@ export default ({ styleClass }) => {
   return (
     <div>
     <button onClick={() => toggleExpansion(!isExpanded)} className="focus:outline-none">
-    <div className="flex flex-row space-x-2 items-center mb-4">
+    <div className="flex flex-row space-x-2 items-center">
         <div className="transform -rotate-12 p-1 bg-yellow-500 text-white rounded-md shadow-lg"><p className="m-0 text-white transform rotate-12"><FaLayerGroup /></p></div>
         <div><p className="font-semibold dark:text-white hover:text-blue-500 m-0">Resources</p></div>
         </div>
     </button>
-    <ul className={`${ isExpanded ? `flex flex-col` : `hidden` } ${styleClass ? styleClass : ""} pl-0 list-none my-0 space-y-2`}>
+    <ul className={`${ isExpanded ? `flex flex-col` : `hidden` } ${styleClass ? styleClass : ""} pl-0 list-none my-0 space-y-2 mt-4`}>
       {tempLinks}
     </ul>
     </div>
